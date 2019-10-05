@@ -53,8 +53,11 @@ public class Cell : MonoBehaviour
 			EnemiesManager.numberOfCellsDestroyed++;
 			for (int i = 0; i < VirionsDrop; i++)
 			{
-				var v = Instantiate(VirionPrefab, transform.position + Random.onUnitSphere, Quaternion.identity, GameManager.instance.Game.transform);
-				_virionManager.virions.Add(v.GetComponent<Virion>());
+                if (_virionManager.virions.Count < _virionManager.maxVirions)
+                {
+                    var v = Instantiate(VirionPrefab, transform.position + Random.onUnitSphere, Quaternion.identity, GameManager.instance.Game.transform);
+                    _virionManager.virions.Add(v.GetComponent<Virion>());
+                }
 			}
 		}
 		EnemiesManager.numberOfCells--;

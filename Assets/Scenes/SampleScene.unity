@@ -428,6 +428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   virions: []
+  maxVirions: 20
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

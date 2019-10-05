@@ -19,6 +19,15 @@ public class BulletScript : MonoBehaviour
     void Update()
     {
 		_rigidbody.velocity += magnetFactor * (Vector2)((GameManager.instance.player.transform.position - transform.position).normalized) * Time.deltaTime;
+        float angle = Vector3.Angle(Vector3.up, new Vector3(_rigidbody.velocity.x, _rigidbody.velocity.y, 0));
+        if (_rigidbody.velocity.x < 0)
+        {
+            _rigidbody.SetRotation(angle);
+        }
+        else
+        {
+            _rigidbody.SetRotation(-angle);
+        }
 	}
 
     public void OnCollisionEnter2D(Collision2D collision)

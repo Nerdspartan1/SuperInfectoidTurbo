@@ -5,6 +5,7 @@ using UnityEngine;
 public class VirionManager : MonoBehaviour
 {
     public List<Virion> virions;
+    public int maxVirions = 20;
 
     private bool _isTargeting = false;
     private Virion _targetingVirion;

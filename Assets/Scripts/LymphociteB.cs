@@ -11,7 +11,7 @@ public class LymphociteB : MonoBehaviour
 
     private Rigidbody2D _rigidBody;
     private float _timer;
-    private float _timeBetweenShoots = 0.4f;
+    private float _timeBetweenShoots = 1.0f;
 
     // Start is called before the first frame update
     void Start()
