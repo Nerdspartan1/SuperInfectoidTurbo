@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public enum GamePhase {
         FirstMenuPhase = 1,
         GamingPhase = 2,
+        CreditPhase = 3
     }
 
     public static GameManager instance;
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject Menu;
     public GameObject Game;
+    public GameObject Credit;
 	public GameObject GameOverScreen;
 	public Text ScoreText;
 
@@ -48,21 +50,44 @@ public class GameManager : MonoBehaviour
 		{
 			case GamePhase.GamingPhase:
 				Menu.SetActive(false);
+                Credit.SetActive(false);
 				Game.SetActive(true);
                 Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
+                Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
                 gamePhase = GamePhase.GamingPhase;
 				break;
 			case GamePhase.FirstMenuPhase:
 				Game.SetActive(false);
-				Menu.SetActive(true);
-				gamePhase = GamePhase.FirstMenuPhase;
+                Credit.SetActive(false);
+                Menu.SetActive(true);
+                Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
+                Menu.GetComponent<VideoPlayer>().PlayVideo();
+                gamePhase = GamePhase.FirstMenuPhase;
 				break;
-		}
+            case GamePhase.CreditPhase:
+                Game.SetActive(false);
+                Menu.SetActive(false);
+                Credit.SetActive(true);
+                Credit.GetComponent<VideoPlayer2>().PlayVideo();
+                Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
+                gamePhase = GamePhase.CreditPhase;
+                break;
+        }
     }
 
     public void LaunchGame()
     {
         ChangePhase(GamePhase.GamingPhase);
+    }
+
+    public void ShowCredits()
+    {
+        ChangePhase(GamePhase.CreditPhase);
+    }
+
+    public void ShowMenu()
+    {
+        ChangePhase(GamePhase.FirstMenuPhase);
     }
 
 	public void GameOver()

@@ -8,6 +8,18 @@ public class VideoPlayer : MonoBehaviour
 
     void Start()
     {
+        
+
+        
+    }
+
+    void EndReached(UnityEngine.Video.VideoPlayer vp)
+    {
+        
+    }
+
+    public void PlayVideo()
+    {
         // Will attach a VideoPlayer to the main camera.
         GameObject camera = GameManager.instance.camera.gameObject;
 
@@ -38,17 +50,11 @@ public class VideoPlayer : MonoBehaviour
 
         // Each time we reach the end, we slow down the playback by a factor of 10.
         videoPlayer.loopPointReached += EndReached;
-
         // Start playback. This means the VideoPlayer may have to prepare (reserve
         // resources, pre-load a few frames, etc.). To better control the delays
         // associated with this preparation one can use videoPlayer.Prepare() along with
         // its prepareCompleted event.
         videoPlayer.Play();
-    }
-
-    void EndReached(UnityEngine.Video.VideoPlayer vp)
-    {
-        
     }
     
 }
