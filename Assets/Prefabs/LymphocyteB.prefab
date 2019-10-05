@@ -100,6 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anticorps: {fileID: 7853394489542285082, guid: e2c64ed3384434e48a55f1f1fdeb0287,
     type: 3}
+  HealObjectPrefab: {fileID: 7183919439157700643, guid: 128341be3e6ede3408fd78fe9e9279ce,
+    type: 3}
   range: 15
   speed: 0.1
 --- !u!114 &1394700768155118173

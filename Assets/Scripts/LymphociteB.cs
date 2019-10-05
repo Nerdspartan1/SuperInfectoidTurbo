@@ -6,7 +6,9 @@ public class LymphociteB : MonoBehaviour
 {
     public GameObject anticorps;
 
-    public float range;
+	public GameObject HealObjectPrefab;
+
+	public float range;
     public float speed = 0.01f;
 
     private Rigidbody2D _rigidBody;
@@ -51,6 +53,11 @@ public class LymphociteB : MonoBehaviour
     public void Die()
     {
         EnemiesManager.numberOfEnemies--;
-        Destroy(gameObject);
+		int chance = Random.Range(0, 3);
+		if (chance == 0)
+		{
+			Instantiate(HealObjectPrefab, transform.position + Random.onUnitSphere * 3, Quaternion.identity, GameManager.instance.Game.transform);
+		}
+		Destroy(gameObject);
     }
 }
