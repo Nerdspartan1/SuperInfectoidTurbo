@@ -26,6 +26,8 @@ public class Cell : MonoBehaviour
 
 	public void Pop()
 	{
+		Destroy(gameObject);
+		EnemiesManager.numberOfCellsDestroyed++;
 		EnemiesManager.numberOfCells--;
 	}
 }

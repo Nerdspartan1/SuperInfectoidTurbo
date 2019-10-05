@@ -5,14 +5,15 @@ using UnityEngine;
 public class EnemiesManager : MonoBehaviour
 {
 	static public int numberOfCells = 0;
+	static public int numberOfCellsDestroyed = 0;
 	public int maxNumberOfCells = 12;
-	public int numberOfCellsDestroyed = 0;
+	
 
-	static public int numberOfEnemies;
-	public int targetNumberOfEnemies;
+	static public int numberOfEnemies = 0;
+	public int maxNumberOfEnemies = 6;
 
-	public float enemyWavePeriod = 5.0f;
-	public float timeBeforeNextWave = 0.0f;
+	public float EnemyWavePeriod = 5.0f;
+	private float _timeBeforeNextWave = 0.0f;
 
     public GameObject LymphocyteBPrefab;
 	public GameObject CellPrefab;
@@ -22,16 +23,24 @@ public class EnemiesManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if(timeBeforeNextWave < 0.0f)
+		if(_timeBeforeNextWave < 0.0f)
 		{
 			for (int i = numberOfCells; i < maxNumberOfCells; i++)
+			{
 				Spawn(CellPrefab);
+				numberOfCells++;
+			}
 
 
+			for (int i = numberOfEnemies; i < Mathf.Min(numberOfCellsDestroyed,maxNumberOfEnemies); i++)
+			{
+				Spawn(LymphocyteBPrefab);
+				numberOfEnemies++;
+			}
 
-			timeBeforeNextWave = enemyWavePeriod;
+			_timeBeforeNextWave = EnemyWavePeriod;
 		}
-		timeBeforeNextWave -= Time.deltaTime;
+		_timeBeforeNextWave -= Time.deltaTime;
 	}
 
 
@@ -43,12 +52,7 @@ public class EnemiesManager : MonoBehaviour
         float x = Random.Range(-GameManager.instance.playAreaWidth / 2, GameManager.instance.playAreaWidth / 2);
         float y = Random.Range(-GameManager.instance.playAreaHeight / 2, GameManager.instance.playAreaHeight / 2);
 
-        Debug.Log("x : " + -GameManager.instance.playAreaWidth / 2+" / "+ GameManager.instance.playAreaWidth / 2);
-        Debug.Log("y : " + y);
-
-
         Instantiate(enemy, new Vector3(x, y, 0), Quaternion.identity, GameManager.instance.Game.transform);
 
-        
     }
 }

@@ -36,8 +36,6 @@ public class PlayerController : MonoBehaviour
 			else
 				animDir = -4;
 
-
-			Debug.Log(animDir);
 			_animator.SetInteger("direction", animDir);
 
 
@@ -110,7 +108,7 @@ public class PlayerController : MonoBehaviour
 			yield return null;
 		}
 
-		Destroy(cell.gameObject);
+		cell.Pop();
 		_isInfectingCell = false;
 		_rigidbody.isKinematic = false;
 		_collider.enabled = true;
