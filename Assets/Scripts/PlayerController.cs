@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 	private Rigidbody2D _rigidbody;
 	private Animator _animator;
 	private bool _isInfectingCell = false;
+	private int animDir;
 
     private float _lerpTime = 1.0f;
     private float _timer = 0.0f;
@@ -30,14 +31,18 @@ public class PlayerController : MonoBehaviour
 		{
 			Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-			int animDir;
+			int newAnimDir;
 			if (input.sqrMagnitude > 0.1f)
-				animDir = (int)(Mathf.Atan2(input.y, input.x) * 4 / Mathf.PI);
+				newAnimDir = (int)(Mathf.Atan2(input.y, input.x) * 4 / Mathf.PI);
 			else
-				animDir = -4;
+				newAnimDir = -4;
 
-			Debug.Log(animDir);
-			_animator.SetInteger("direction", animDir);
+			if (newAnimDir != animDir)
+			{
+				Debug.Log(newAnimDir);
+				_animator.SetInteger("direction", newAnimDir);
+				animDir = newAnimDir;
+			}
 
 
 			Vector2 acceleration = maxAcceleration * input;
@@ -75,8 +80,6 @@ public class PlayerController : MonoBehaviour
 				}
 			}
 		}
-
-        GameManager.instance.camera.transform.position = new Vector3(transform.position.x, transform.position.y, GameManager.instance.camera.transform.position.z);
     }
 
 	public IEnumerator AttackCellCoroutine(Cell cell)
@@ -99,7 +102,7 @@ public class PlayerController : MonoBehaviour
 				_isInfectingCell = false;
 				_rigidbody.isKinematic = false;
 
-				transform.position = startPos;
+				//transform.position = startPos;
 				_rigidbody.velocity = 30*infectionRate*(startPos - cell.transform.position);
 
 				_collider.enabled = true;
@@ -116,4 +119,10 @@ public class PlayerController : MonoBehaviour
 		_rigidbody.isKinematic = false;
 		_collider.enabled = true;
 	}
+
+	private void LateUpdate()
+	{
+		GameManager.instance.camera.transform.position = new Vector3(transform.position.x, transform.position.y, GameManager.instance.camera.transform.position.z);
+	}
 }
+
