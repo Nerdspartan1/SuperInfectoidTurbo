@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 6a9e52cb8decf8546a41a812c5e24c57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8119593598124523678
+    second: player turn idle V2_0
+  - first:
+      213: 6908827737910423040
+    second: player turn idle V2_1
+  - first:
+      213: -2623440721101753963
+    second: player turn idle V2_2
+  - first:
+      213: -4837397926378451380
+    second: player turn idle V2_3
+  - first:
+      213: -7237081469742290621
+    second: player turn idle V2_4
+  - first:
+      213: -6893726514148830013
+    second: player turn idle V2_5
+  - first:
+      213: -2365540004176944960
+    second: player turn idle V2_6
+  - first:
+      213: -7050131279881698675
+    second: player turn idle V2_7
+  - first:
+      213: 3685567876508724877
+    second: player turn idle V2_8
+  - first:
+      213: 8028198145646250623
+    second: player turn idle V2_9
+  - first:
+      213: 5414175197333031321
+    second: player turn idle V2_10
+  - first:
+      213: 5420509750997102067
+    second: player turn idle V2_11
+  - first:
+      213: -2328649469168635260
+    second: player turn idle V2_12
+  - first:
+      213: -3617716330874367589
+    second: player turn idle V2_13
+  - first:
+      213: -6818155500496805407
+    second: player turn idle V2_14
+  - first:
+      213: -1510188391502597257
+    second: player turn idle V2_15
+  - first:
+      213: 2953869433416931602
+    second: player turn idle V2_16
+  - first:
+      213: -5895464375578213807
+    second: player turn idle V2_17
+  - first:
+      213: 4674914135598672521
+    second: player turn idle V2_18
+  - first:
+      213: -8110787754307347114
+    second: player turn idle V2_19
+  - first:
+      213: 8111450355623977810
+    second: player turn idle V2_20
+  - first:
+      213: -3257166488378367927
+    second: player turn idle V2_21
+  - first:
+      213: -2395615738251303583
+    second: player turn idle V2_22
+  - first:
+      213: -7512904259097061014
+    second: player turn idle V2_23
+  - first:
+      213: 3521779706996745776
+    second: player turn idle V2_24
+  - first:
+      213: 7576580010045334947
+    second: player turn idle V2_25
+  - first:
+      213: 3590307067422569957
+    second: player turn idle V2_26
+  - first:
+      213: -7459648900798154552
+    second: player turn idle V2_27
+  - first:
+      213: 8534490404820724105
+    second: player turn idle V2_28
+  - first:
+      213: 976063371528078035
+    second: player turn idle V2_29
+  - first:
+      213: 3595437173663946475
+    second: player turn idle V2_30
+  - first:
+      213: -5930977729685910975
+    second: player turn idle V2_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player turn idle V2_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 296
+        width: 196
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3026cc5e8136ee64792fa16ebc5856b8
+      internalID: -8119593598124523678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 296
+        width: 196
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390fefb61a1738d428beacc5b35caece
+      internalID: 6908827737910423040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 290
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434a61e153b021a4db10f971e042325d
+      internalID: -2623440721101753963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 290
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b764e365fedfc949b675724f15d4020
+      internalID: -4837397926378451380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_4
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 288
+        width: 188
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413306f6942c5724d91c9108b801f7c5
+      internalID: -7237081469742290621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_5
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 288
+        width: 190
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a384b800668891d459e224246360f7ae
+      internalID: -6893726514148830013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_6
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 287
+        width: 199
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae34a7be716d6e47ae49cec3859044a
+      internalID: -2365540004176944960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_7
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 286
+        width: 199
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6210c403512e62547b48ae655d1c9949
+      internalID: -7050131279881698675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_8
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 286
+        width: 190
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af58df97f799c4ba2e49201c8d07ed
+      internalID: 3685567876508724877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_9
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 286
+        width: 190
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf3a989169b6604494faa40eb053ab8
+      internalID: 8028198145646250623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_10
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 287
+        width: 199
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaedcfd1c14e7548a7ce6e34e305c41
+      internalID: 5414175197333031321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_11
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 287
+        width: 199
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7baca3870cd87499b5751a3fecb6ef
+      internalID: 5420509750997102067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_12
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 288
+        width: 190
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07574fa6d14ef83438f3019d40f3de8f
+      internalID: -2328649469168635260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_13
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 288
+        width: 188
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726eb9d42d371cf4081c8cbe279d75bc
+      internalID: -3617716330874367589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_14
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 290
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7aade479b47c54b8b8cc06cf176d62
+      internalID: -6818155500496805407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_15
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 290
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa50bb2fea11008409a1bd16f9bd0244
+      internalID: -1510188391502597257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 46
+        width: 196
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1f2d3dd3198cc47ae22a4039df5700
+      internalID: 2953869433416931602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_17
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 46
+        width: 196
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ce2bc9fc717394388d9d823b2b0933
+      internalID: -5895464375578213807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_18
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 40
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa45c9b6f91fb3448ae889401c163413
+      internalID: 4674914135598672521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_19
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 40
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4bf04c6d6b8534cb513e243a12578a
+      internalID: -8110787754307347114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_20
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 38
+        width: 188
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92227bba0d59ab24a887dcfe473d7820
+      internalID: 8111450355623977810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_21
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 38
+        width: 190
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1d89af3e75467489e3e16e0d5b0c23
+      internalID: -3257166488378367927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_22
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 37
+        width: 199
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01f24449a2044a4196472a600fed5e9
+      internalID: -2395615738251303583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_23
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 36
+        width: 199
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a6f03a12c44fd4ead6d1680520fe32
+      internalID: -7512904259097061014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_24
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 36
+        width: 190
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84a0103be1068e4e9c386a6f75eacea
+      internalID: 3521779706996745776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_25
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 36
+        width: 190
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2873ca0868cab6548b4fbd66e3bb4373
+      internalID: 7576580010045334947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_26
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 37
+        width: 199
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a18eb37afb66949876d6b4de16b0a6
+      internalID: 3590307067422569957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_27
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 37
+        width: 199
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f8b04732aab0d4c9f60675bb1f95f3
+      internalID: -7459648900798154552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_28
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 38
+        width: 190
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3c3fed09e61414897fd4dc117f12a8
+      internalID: 8534490404820724105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_29
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 38
+        width: 188
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db468b575f402d1499fdc00313ca45d2
+      internalID: 976063371528078035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_30
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 40
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ee00e45dd43346bd98e3a02e1b760
+      internalID: 3595437173663946475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player turn idle V2_31
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 40
+        width: 192
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d3e2035d6c6dc428292b685a61ecf3
+      internalID: -5930977729685910975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

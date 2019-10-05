@@ -2218,6 +2218,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6193667209030059077, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8119593598124523678, guid: 6a9e52cb8decf8546a41a812c5e24c57,
+        type: 3}
+    - target: {fileID: 6193667209030059077, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193667209030059077, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6193667209030059077, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1663061455, guid: 34025ecc6deb15f42ba9f09c8bbe20f9, type: 3}
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.size
       value: 1
