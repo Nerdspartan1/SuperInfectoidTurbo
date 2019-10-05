@@ -140,6 +140,9 @@ MonoBehaviour:
   VirionsDrop: 5
   VirionPrefab: {fileID: 876088027521212295, guid: ff337a90457a9924681898fba96c8343,
     type: 3}
+  GibsPrefab: {fileID: 6274531187407110188, guid: e5d0a44b01fbae44ea61defc98fb879d,
+    type: 3}
+  IsPopped: 0
 --- !u!95 &814676776193832034
 Animator:
   serializedVersion: 3

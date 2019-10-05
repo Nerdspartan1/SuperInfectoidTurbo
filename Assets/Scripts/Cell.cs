@@ -15,6 +15,8 @@ public class Cell : MonoBehaviour
 	public GameObject VirionPrefab;
 	private VirionManager _virionManager;
 
+	public GameObject GibsPrefab;
+
 	public bool IsPopped=false;
 
 	private void Start()
@@ -49,7 +51,7 @@ public class Cell : MonoBehaviour
 	{
 		IsPopped = true;
 		_animator.SetTrigger("pop");
-		_collider.enabled = false;
+		
 		Destroy(gameObject,1.0f);
 		if (infected)
 		{
@@ -64,5 +66,15 @@ public class Cell : MonoBehaviour
 			}
 		}
 		EnemiesManager.numberOfCells--;
+	}
+
+	public void FinishPop()
+	{
+		_collider.enabled = false;
+		for (int i = 0; i < 6; i++)
+		{
+			var g = Instantiate(GibsPrefab, transform.position, Quaternion.identity, GameManager.instance.Game.transform);
+			g.GetComponent<Rigidbody2D>().velocity = 6 * Random.insideUnitCircle;
+		}
 	}
 }
