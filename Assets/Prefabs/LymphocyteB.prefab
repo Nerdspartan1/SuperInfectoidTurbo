@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3170501342616632553}
   - component: {fileID: 4313197748786322707}
   - component: {fileID: 2713406714709072597}
+  - component: {fileID: 3071179768589506765}
   m_Layer: 8
   m_Name: LymphocyteB
   m_TagString: Untagged
@@ -95,3 +96,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anticorps: {fileID: 7853394489542285082, guid: e2c64ed3384434e48a55f1f1fdeb0287,
     type: 3}
+  range: 15
+--- !u!58 &3071179768589506765
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2937576770091804189}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 4

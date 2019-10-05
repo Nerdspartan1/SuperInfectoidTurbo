@@ -14,12 +14,13 @@ public class BulletScript : MonoBehaviour
     void Start()
     {
         _rigidbody = gameObject.GetComponent<Rigidbody2D>();
+        _rigidbody.velocity = speed * direction * Time.deltaTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        _rigidbody.velocity += speed * direction * Time.deltaTime;
+        
     }
 
     public void OnCollisionEnter2D(Collision2D collision)

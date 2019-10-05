@@ -17,11 +17,12 @@ public class GameManager : MonoBehaviour
     public GameObject Game;
 
     public Camera camera;
+    public float defaultOrthographicSize = 6;
 
     public GameObject player;
 
-    public float playAreaWidth;
-    public float playAreaHeight;
+    public float playAreaWidth = 88.0f;
+    public float playAreaHeight = 46.0f;
 
     public float parallaxFactor = 500;
 
