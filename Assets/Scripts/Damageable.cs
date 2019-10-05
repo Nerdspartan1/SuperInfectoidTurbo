@@ -7,6 +7,7 @@ public class Damageable : MonoBehaviour
 {
 	public int life = 10;
 	public UnityEvent OnDeath;
+	public UnityEvent OnDamaged;
 
 	public void TakeDamage(int damage)
 	{
@@ -14,6 +15,10 @@ public class Damageable : MonoBehaviour
 		if(life <= 0)
 		{
 			OnDeath.Invoke();
+		}
+		else
+		{
+			OnDamaged.Invoke();
 		}
 	}
 }

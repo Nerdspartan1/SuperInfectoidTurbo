@@ -38,7 +38,8 @@ public class Cell : MonoBehaviour
 
 	public void Pop()
 	{
-		Destroy(gameObject);
+		_animator.SetTrigger("pop");
+		Destroy(gameObject,1.0f);
 		EnemiesManager.numberOfCellsDestroyed++;
 		EnemiesManager.numberOfCells--;
 	}

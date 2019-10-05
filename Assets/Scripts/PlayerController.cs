@@ -45,7 +45,6 @@ public class PlayerController : MonoBehaviour
 		if (_rigidbody.velocity.sqrMagnitude > maxVelocity * maxVelocity)
 			_rigidbody.velocity = _rigidbody.velocity.normalized * maxVelocity;
         
-        //GameManager.instance.camera.orthographicSize = GameManager.instance.defaultOrthographicSize + _rigidbody.velocity.magnitude/5;
         if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
         {
             GameManager.instance.camera.orthographicSize = GameManager.instance.defaultOrthographicSize + _rigidbody.velocity.magnitude / 5;
