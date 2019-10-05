@@ -36,8 +36,22 @@ public class Virion : MonoBehaviour
     public void Fire(Vector2 direction)
     {
         state = State.Firing;
+        gameObject.layer = 13;
         _direction = direction;
         _rigidbody.velocity = _speed * direction * Time.deltaTime;
         _rigidbody.drag = 0;
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (state == State.Firing)
+        {
+            // layer 8 = enemy
+            if (collision.collider.gameObject.layer == 8)
+            {
+                collision.collider.gameObject.GetComponent<Damageable>().TakeDamage(10);
+            }
+            Destroy(gameObject);
+        }
     }
 }

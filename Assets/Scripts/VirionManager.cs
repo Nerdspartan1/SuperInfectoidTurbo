@@ -8,6 +8,7 @@ public class VirionManager : MonoBehaviour
 
     private bool _isTargeting = false;
     private Virion _targetingVirion;
+    private bool _hasFired = false;
 
     // Update is called once per frame
     void Update()
@@ -19,6 +20,7 @@ public class VirionManager : MonoBehaviour
                 if (!_isTargeting)
                 {
                     _isTargeting = true;
+                    _hasFired = false;
                     _targetingVirion = virions[Random.Range(0, virions.Count - 1)];
                 }
                 else
@@ -30,13 +32,13 @@ public class VirionManager : MonoBehaviour
             {
                 _isTargeting = false;
             }
-            Debug.Log("Shoot : "+Input.GetAxis("Shoot"));
-            if (Input.GetAxis("Shoot") != 0 && (Input.GetAxis("Horizontal2") != 0 || Input.GetAxis("Vertical2") != 0))
+            if (!_hasFired && Input.GetAxis("Shoot") != 0 && (Input.GetAxis("Horizontal2") != 0 || Input.GetAxis("Vertical2") != 0))
             {
                 _targetingVirion.Fire(new Vector2(Input.GetAxis("Horizontal2"), Input.GetAxis("Vertical2")).normalized);
                 virions.Remove(_targetingVirion);
                 _targetingVirion = null;
                 _isTargeting = false;
+                _hasFired = true;
             }
         }
     }

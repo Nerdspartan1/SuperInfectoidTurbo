@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3170501342616632553}
   - component: {fileID: 4313197748786322707}
   - component: {fileID: 2713406714709072597}
+  - component: {fileID: 1394700768155118173}
   - component: {fileID: 3071179768589506765}
   m_Layer: 8
   m_Name: LymphocyteB
@@ -97,6 +98,36 @@ MonoBehaviour:
   anticorps: {fileID: 7853394489542285082, guid: e2c64ed3384434e48a55f1f1fdeb0287,
     type: 3}
   range: 15
+--- !u!114 &1394700768155118173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2937576770091804189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb41c9ddeb1a2c43b99405859998a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life: 10
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2713406714709072597}
+        m_MethodName: Die
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnDamaged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!58 &3071179768589506765
 CircleCollider2D:
   m_ObjectHideFlags: 0

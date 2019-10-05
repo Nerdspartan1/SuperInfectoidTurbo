@@ -37,4 +37,10 @@ public class LymphociteB : MonoBehaviour
         }
         
     }
+
+    public void Die()
+    {
+        EnemiesManager.numberOfEnemies--;
+        Destroy(gameObject);
+    }
 }
