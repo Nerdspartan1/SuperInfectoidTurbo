@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
 			_rigidbody.velocity += acceleration;
 			if (_rigidbody.velocity.sqrMagnitude > maxVelocity * maxVelocity)
 				_rigidbody.velocity = _rigidbody.velocity.normalized * maxVelocity;
-        
+
 
 			GameManager.instance.camera.orthographicSize = Mathf.Lerp(GameManager.instance.camera.orthographicSize, GameManager.instance.defaultOrthographicSize + _rigidbody.velocity.magnitude / 5, 0.1f);
 
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
 			if (Input.GetButtonDown("Jump"))
 			{
 				Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, cellInfectionRadius);
-				foreach(var col in colliders)
+				foreach (var col in colliders)
 				{
 					Cell cell = col.GetComponent<Cell>();
 					if (cell)

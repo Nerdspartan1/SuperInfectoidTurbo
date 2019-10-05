@@ -7,6 +7,7 @@ public class Cell : MonoBehaviour
 	public float PerlinRate;
 	public float PerlinAccelerationFactor;
 	private Rigidbody2D _rigidbody;
+	private Collider2D _collider;
 	private Vector2 _perlinDirection;
 	private Animator _animator;
 
@@ -22,6 +23,7 @@ public class Cell : MonoBehaviour
 		_perlinDirection = Random.insideUnitCircle.normalized;
 		_animator = GetComponent<Animator>();
 		_virionManager = GameManager.instance.GetComponent<VirionManager>();
+		_collider = GetComponent<Collider2D>();
 	}
 
 	void Update()
@@ -47,6 +49,7 @@ public class Cell : MonoBehaviour
 	{
 		IsPopped = true;
 		_animator.SetTrigger("pop");
+		_collider.enabled = false;
 		Destroy(gameObject,1.0f);
 		if (infected)
 		{

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Damageable : MonoBehaviour
 {
-	public int life = 10;
+	public int life;
 	public UnityEvent OnDeath;
 	public UnityEvent OnDamaged;
 

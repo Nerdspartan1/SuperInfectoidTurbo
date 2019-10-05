@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public enum GamePhase {
         FirstMenuPhase = 1,
-        GamingPhase = 2
+        GamingPhase = 2,
     }
 
     public static GameManager instance;
@@ -15,8 +16,9 @@ public class GameManager : MonoBehaviour
 
     public GameObject Menu;
     public GameObject Game;
+	public GameObject GameOverScreen;
 
-    public Camera camera;
+    new public Camera camera;
     public float defaultOrthographicSize = 6;
 
     public GameObject player;
@@ -35,32 +37,39 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         ChangePhase(GamePhase.FirstMenuPhase);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+		GameOverScreen.SetActive(false);
+	}
 
     public void ChangePhase(GamePhase nextPhase)
     {
-        if (nextPhase == GamePhase.GamingPhase)
-        {
-            Menu.SetActive(false);
-            Game.SetActive(true);
-            gamePhase = GamePhase.GamingPhase;
-        }
-        else if (nextPhase == GamePhase.FirstMenuPhase)
-        {
-            Game.SetActive(false);
-            Menu.SetActive(true);
-            gamePhase = GamePhase.FirstMenuPhase;
-        }
+		switch (nextPhase)
+		{
+			case GamePhase.GamingPhase:
+				Menu.SetActive(false);
+				Game.SetActive(true);
+				gamePhase = GamePhase.GamingPhase;
+				break;
+			case GamePhase.FirstMenuPhase:
+				Game.SetActive(false);
+				Menu.SetActive(true);
+				gamePhase = GamePhase.FirstMenuPhase;
+				break;
+		}
     }
 
     public void LaunchGame()
     {
         ChangePhase(GamePhase.GamingPhase);
     }
+
+	public void GameOver()
+	{
+		player.SetActive(false);
+		GameOverScreen.SetActive(true);
+	}
+
+	public void Restart()
+	{
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
 }
