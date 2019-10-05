@@ -47,7 +47,8 @@ public class GameManager : MonoBehaviour
 			case GamePhase.GamingPhase:
 				Menu.SetActive(false);
 				Game.SetActive(true);
-				gamePhase = GamePhase.GamingPhase;
+                Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
+                gamePhase = GamePhase.GamingPhase;
 				break;
 			case GamePhase.FirstMenuPhase:
 				Game.SetActive(false);
