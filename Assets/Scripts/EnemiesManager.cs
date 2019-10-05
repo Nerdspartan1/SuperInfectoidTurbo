@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemiesManager : MonoBehaviour
 {
 	static public int numberOfCells = 0;
 	static public int numberOfCellsDestroyed = 0;
 	public int maxNumberOfCells = 12;
-	
 
 	static public int numberOfEnemies = 0;
-	public int maxNumberOfEnemies = 6;
+	public int maxNumberOfEnemies = 20;
 
 	public float EnemyWavePeriod = 5.0f;
 	private float _timeBeforeNextWave = 0.0f;
@@ -18,9 +18,8 @@ public class EnemiesManager : MonoBehaviour
     public GameObject LymphocyteBPrefab;
 	public GameObject CellPrefab;
 
-    // Start is called before the first frame update
+	public Text InfectedCount;
 
-    // Update is called once per frame
     void Update()
     {
 		if(_timeBeforeNextWave < 0.0f)
@@ -41,6 +40,8 @@ public class EnemiesManager : MonoBehaviour
 			_timeBeforeNextWave = EnemyWavePeriod;
 		}
 		_timeBeforeNextWave -= Time.deltaTime;
+
+		InfectedCount.text = $"Cells infected : {numberOfCellsDestroyed}";
 	}
 
 

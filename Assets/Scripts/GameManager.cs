@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
     public GameObject Menu;
     public GameObject Game;
 	public GameObject GameOverScreen;
+	public Text ScoreText;
 
     new public Camera camera;
     public float defaultOrthographicSize = 6;
@@ -65,6 +67,7 @@ public class GameManager : MonoBehaviour
 	public void GameOver()
 	{
 		player.SetActive(false);
+		ScoreText.text = $"You got eradicated ! Your score : {EnemiesManager.numberOfCellsDestroyed}";
 		GameOverScreen.SetActive(true);
 	}
 
