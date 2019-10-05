@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
 			yield return null;
 		}
 
-		cell.Pop();
+		cell.Pop(infected:true);
 		_isInfectingCell = false;
 		_rigidbody.isKinematic = false;
 		_collider.enabled = true;

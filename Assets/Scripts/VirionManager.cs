@@ -9,16 +9,6 @@ public class VirionManager : MonoBehaviour
     private bool _isTargeting = false;
     private Virion _targetingVirion;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        virions = new List<Virion>();
-        foreach (Virion v in GameObject.FindObjectsOfType<Virion>())
-        {
-            virions.Add(v);
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
