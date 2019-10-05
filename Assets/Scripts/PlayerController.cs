@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
 	private Rigidbody2D _rigidbody;
 	private Animator _animator;
 	private bool _isInfectingCell = false;
-	private int animDir;
 
     private float _lerpTime = 1.0f;
     private float _timer = 0.0f;
@@ -31,18 +30,15 @@ public class PlayerController : MonoBehaviour
 		{
 			Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-			int newAnimDir;
+			int animDir;
 			if (input.sqrMagnitude > 0.1f)
-				newAnimDir = (int)(Mathf.Atan2(input.y, input.x) * 4 / Mathf.PI);
+				animDir = (int)(Mathf.Atan2(input.y, input.x) * 4 / Mathf.PI);
 			else
-				newAnimDir = -4;
+				animDir = -4;
 
-			if (newAnimDir != animDir)
-			{
-				Debug.Log(newAnimDir);
-				_animator.SetInteger("direction", newAnimDir);
-				animDir = newAnimDir;
-			}
+
+			Debug.Log(animDir);
+			_animator.SetInteger("direction", animDir);
 
 
 			Vector2 acceleration = maxAcceleration * input;
