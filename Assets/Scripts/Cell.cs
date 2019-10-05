@@ -14,6 +14,8 @@ public class Cell : MonoBehaviour
 	public GameObject VirionPrefab;
 	private VirionManager _virionManager;
 
+	public bool IsPopped=false;
+
 	private void Start()
 	{
 		_rigidbody = GetComponent<Rigidbody2D>();
@@ -43,7 +45,7 @@ public class Cell : MonoBehaviour
 
 	public void Pop(bool infected)
 	{
-
+		IsPopped = true;
 		_animator.SetTrigger("pop");
 		Destroy(gameObject,1.0f);
 		if (infected)

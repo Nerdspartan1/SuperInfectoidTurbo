@@ -78,31 +78,25 @@ public class PlayerController : MonoBehaviour
 		while (infectionPercentage < 1.0)
 		{
 			infectionPercentage += Time.deltaTime * infectionRate;
-			transform.position = Vector3.Lerp(startPos, cell.transform.position , Mathf.Sqrt(infectionPercentage));
-
-			if (Input.GetButtonUp("Jump"))
+		
+			if (Input.GetButtonUp("Jump") || cell == null || cell.IsPopped)
 			{
-				_isInfectingCell = false;
-				_rigidbody.isKinematic = false;
+				_rigidbody.velocity = 30 * infectionRate * (startPos - cell.transform.position);
 
-				//transform.position = startPos;
-				_rigidbody.velocity = 30*infectionRate*(startPos - cell.transform.position);
-
-				_collider.enabled = true;
-
-				cell.StopInfecting();
-
-				yield break;
+				goto FinishInfecting;
 			}
-			
+
+			transform.position = Vector3.Lerp(startPos, cell.transform.position, Mathf.Sqrt(infectionPercentage));
 
 			yield return null;
 		}
 
 		cell.Pop(infected:true);
-		_isInfectingCell = false;
-		_rigidbody.isKinematic = false;
-		_collider.enabled = true;
+
+		FinishInfecting:
+			_isInfectingCell = false;
+			_rigidbody.isKinematic = false;
+			_collider.enabled = true;
 	}
 
 	private void LateUpdate()
