@@ -23,4 +23,9 @@ public class Cell : MonoBehaviour
 		_rigidbody.velocity += acceleration * Time.deltaTime;
 		
 	}
+
+	public void Pop()
+	{
+		EnemiesManager.numberOfCells--;
+	}
 }

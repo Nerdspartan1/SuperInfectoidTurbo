@@ -4,61 +4,51 @@ using UnityEngine;
 
 public class EnemiesManager : MonoBehaviour
 {
-    public enum EnemyType
-    {
-        LymphociteB = 0,
-        LymphociteT = 1,
-        Dendrite = 2
-    }
+	static public int numberOfCells = 0;
+	public int maxNumberOfCells = 12;
+	public int numberOfCellsDestroyed = 0;
 
-    public GameObject LBPrefab;
+	static public int numberOfEnemies;
+	public int targetNumberOfEnemies;
+
+	public float enemyWavePeriod = 5.0f;
+	public float timeBeforeNextWave = 0.0f;
+
+    public GameObject LymphocyteBPrefab;
+	public GameObject CellPrefab;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        GenerateRandomEnemies(0);
-    }
 
     // Update is called once per frame
     void Update()
     {
+		if(timeBeforeNextWave < 0.0f)
+		{
+			for (int i = numberOfCells; i < maxNumberOfCells; i++)
+				Spawn(CellPrefab);
+
+
+
+			timeBeforeNextWave = enemyWavePeriod;
+		}
+		timeBeforeNextWave -= Time.deltaTime;
+	}
+
+
+
+
+    private void Spawn(GameObject enemy)
+    {
+
+        float x = Random.Range(-GameManager.instance.playAreaWidth / 2, GameManager.instance.playAreaWidth / 2);
+        float y = Random.Range(-GameManager.instance.playAreaHeight / 2, GameManager.instance.playAreaHeight / 2);
+
+        Debug.Log("x : " + -GameManager.instance.playAreaWidth / 2+" / "+ GameManager.instance.playAreaWidth / 2);
+        Debug.Log("y : " + y);
+
+
+        Instantiate(enemy, new Vector3(x, y, 0), Quaternion.identity, GameManager.instance.Game.transform);
+
         
-    }
-
-    public void GenerateRandomEnemies(int difficulty)
-    {
-        switch (difficulty)
-        {
-            case 0:
-                _SpawnEnemies(EnemyType.LymphociteB, 5);
-                break;
-            case 1:
-                break;
-            default:
-                break;
-        }
-    }
-
-    private void _SpawnEnemies(EnemyType type, int number)
-    {
-        for (int i = 0; i < number; i++)
-        {
-            float x = Random.Range(-GameManager.instance.playAreaWidth / 2, GameManager.instance.playAreaWidth / 2);
-            float y = Random.Range(-GameManager.instance.playAreaHeight / 2, GameManager.instance.playAreaHeight / 2);
-
-            Debug.Log("x : " + -GameManager.instance.playAreaWidth / 2+" / "+ GameManager.instance.playAreaWidth / 2);
-            Debug.Log("y : " + y);
-
-            switch (type)
-            {
-                case EnemyType.LymphociteB:
-                    Instantiate(LBPrefab, new Vector3(x, y, 0), Quaternion.identity, GameManager.instance.Game.transform);
-                    break;
-                case EnemyType.LymphociteT:
-                    break;
-                case EnemyType.Dendrite:
-                    break;
-            }
-        }
     }
 }
