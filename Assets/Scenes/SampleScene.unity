@@ -1757,48 +1757,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1490107433}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1663061449 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6193667209030059082, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
-    type: 3}
-  m_PrefabInstance: {fileID: 1490107433}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1663061454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6193667209030059073, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
     type: 3}
   m_PrefabInstance: {fileID: 1490107433}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1663061455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663061448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbb41c9ddeb1a2c43b99405859998a86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  life: 10
-  OnDeath:
-    m_PersistentCalls:
-      m_Calls: []
-  OnDamaged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1663061449}
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: oof
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1736518002
 GameObject:
   m_ObjectHideFlags: 0

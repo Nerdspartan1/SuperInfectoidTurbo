@@ -12,10 +12,11 @@ public class PlayerController : MonoBehaviour
 	private Collider2D _collider;
 	private Rigidbody2D _rigidbody;
 	private Animator _animator;
-	private bool _isInfectingCell = false;
 
-    private float _lerpTime = 1.0f;
-    private float _timer = 0.0f;
+	private bool _isInfectingCell = false;
+	private bool _isOof = false;
+
+	public float stunTime = 0.5f;
 
 	public void Start()
 	{
@@ -26,7 +27,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-		if (!_isInfectingCell)
+		if (!_isInfectingCell && !_isOof)
 		{
 			Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
@@ -79,7 +80,7 @@ public class PlayerController : MonoBehaviour
 		{
 			infectionPercentage += Time.deltaTime * infectionRate;
 		
-			if (Input.GetButtonUp("Jump") || cell == null || cell.IsPopped)
+			if (Input.GetButtonUp("Jump") || _isOof || cell == null || cell.IsPopped)
 			{
 				_rigidbody.velocity = 30 * infectionRate * (startPos - cell.transform.position);
 
@@ -102,6 +103,23 @@ public class PlayerController : MonoBehaviour
 	private void LateUpdate()
 	{
 		GameManager.instance.camera.transform.position = new Vector3(transform.position.x, transform.position.y, GameManager.instance.camera.transform.position.z);
+	}
+
+	public void GetOofed()
+	{
+		StartCoroutine(GetOofedCoroutine());
+	}
+
+	private IEnumerator GetOofedCoroutine()
+	{
+		_isOof = true;
+		_animator.SetBool("oof", true);
+		_animator.SetInteger("direction", -5);
+
+		yield return new WaitForSeconds(stunTime);
+
+		_animator.SetBool("oof", false);
+		_isOof = false;
 	}
 }
 
