@@ -8,9 +8,10 @@ public class PlayerController : MonoBehaviour
 	public float maxAcceleration;
 	public float maxVelocity;
 	public float cellInfectionRadius;
-	
+
 	private Collider2D _collider;
 	private Rigidbody2D _rigidbody;
+	private Animator _animator;
 	private bool _isInfectingCell = false;
 
     private float _lerpTime = 1.0f;
@@ -20,13 +21,26 @@ public class PlayerController : MonoBehaviour
 	{
 		_collider = GetComponent<Collider2D>();
 		_rigidbody = GetComponent<Rigidbody2D>();
+		_animator = GetComponent<Animator>();
 	}
 
     void Update()
     {
 		if (!_isInfectingCell)
 		{
-			Vector2 acceleration = new Vector2(maxAcceleration * Input.GetAxisRaw("Horizontal"), maxAcceleration * Input.GetAxisRaw("Vertical"));
+			Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+			int animDir;
+			if (input.sqrMagnitude > 0.1f)
+				animDir = (int)(Mathf.Atan2(input.y, input.x) * 4 / Mathf.PI);
+			else
+				animDir = -4;
+
+			Debug.Log(animDir);
+			_animator.SetInteger("direction", animDir);
+
+
+			Vector2 acceleration = maxAcceleration * input;
 
 		_rigidbody.velocity += acceleration/10;
 		if (_rigidbody.velocity.sqrMagnitude > maxVelocity * maxVelocity)
@@ -51,7 +65,6 @@ public class PlayerController : MonoBehaviour
 			if (Input.GetButtonDown("Jump"))
 			{
 				Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, cellInfectionRadius);
-				Debug.Log(colliders);
 				foreach(var col in colliders)
 				{
 					Cell cell = col.GetComponent<Cell>();
