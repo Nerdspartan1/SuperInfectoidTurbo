@@ -13,6 +13,7 @@ public class Cell : MonoBehaviour
 
 	public int VirionsDrop = 5;
 	public GameObject VirionPrefab;
+    public GameObject HealObjectPrefab;
 	private VirionManager _virionManager;
 
 	public GameObject GibsPrefab;
@@ -64,6 +65,11 @@ public class Cell : MonoBehaviour
                     _virionManager.virions.Add(v.GetComponent<Virion>());
                 }
 			}
+            int chance = Random.Range(0, 3);
+            if (chance == 0)
+            {
+                Instantiate(HealObjectPrefab, transform.position + Random.onUnitSphere * 3, Quaternion.identity, GameManager.instance.Game.transform);
+            }
 		}
 		EnemiesManager.numberOfCells--;
 	}

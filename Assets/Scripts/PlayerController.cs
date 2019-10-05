@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
 	private Collider2D _collider;
 	private Rigidbody2D _rigidbody;
 	private Animator _animator;
+    private Damageable _damageable;
 
 	private bool _isInfectingCell = false;
 	private bool _isOof = false;
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
 		_collider = GetComponent<Collider2D>();
 		_rigidbody = GetComponent<Rigidbody2D>();
 		_animator = GetComponent<Animator>();
+        _damageable = GetComponent<Damageable>();
 	}
 
     void Update()
@@ -121,5 +123,10 @@ public class PlayerController : MonoBehaviour
 		_animator.SetBool("oof", false);
 		_isOof = false;
 	}
+
+    public void Heal(int hpHealed)
+    {
+        _damageable.life += hpHealed;
+    }
 }
 
