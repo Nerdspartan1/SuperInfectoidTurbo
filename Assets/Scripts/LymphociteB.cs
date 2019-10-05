@@ -22,6 +22,7 @@ public class LymphociteB : MonoBehaviour
     {
         if ((GameManager.instance.player.transform.position - transform.position).magnitude < range)
         {
+            gameObject.GetComponent<Animator>().SetBool("isAttacking", true);
             _timer += Time.deltaTime;
 
             if (_timer > _timeBetweenShoots)
@@ -33,6 +34,7 @@ public class LymphociteB : MonoBehaviour
         }
         else
         {
+            gameObject.GetComponent<Animator>().SetBool("isAttacking", false);
             _timer = 0;
         }
         
