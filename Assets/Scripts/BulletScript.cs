@@ -6,7 +6,7 @@ public class BulletScript : MonoBehaviour
 {
 
     public Vector2 direction;
-    public float speed = 2;
+    public float speed;
 
     private Rigidbody2D _rigidbody;
 

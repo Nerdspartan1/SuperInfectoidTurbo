@@ -7,7 +7,7 @@ public class LymphociteB : MonoBehaviour
     public GameObject anticorps;
 
     private float _timer;
-    private float _timeBetweenShoots = 0.05f;
+    private float _timeBetweenShoots = 0.2f;
 
     // Start is called before the first frame update
     void Start()
