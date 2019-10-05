@@ -24,7 +24,7 @@ public class VirionManager : MonoBehaviour
     {
         if (virions.Count != 0)
         {
-            if (Input.GetAxis("Shoot") == 1 && (Input.GetAxis("Horizontal2") != 0 || Input.GetAxis("Vertical2") != 0))
+            if (Input.GetAxis("Shoot") == 0 && (Input.GetAxis("Horizontal2") != 0 || Input.GetAxis("Vertical2") != 0))
             {
                 if (!_isTargeting)
                 {
@@ -40,10 +40,12 @@ public class VirionManager : MonoBehaviour
             {
                 _isTargeting = false;
             }
-            if (Input.GetAxis("Shoot") != 1 && (Input.GetAxis("Horizontal2") != 0 || Input.GetAxis("Vertical2") != 0))
+            Debug.Log("Shoot : "+Input.GetAxis("Shoot"));
+            if (Input.GetAxis("Shoot") != 0 && (Input.GetAxis("Horizontal2") != 0 || Input.GetAxis("Vertical2") != 0))
             {
                 _targetingVirion.Fire(new Vector2(Input.GetAxis("Horizontal2"), Input.GetAxis("Vertical2")).normalized);
                 virions.Remove(_targetingVirion);
+                _targetingVirion = null;
                 _isTargeting = false;
             }
         }
