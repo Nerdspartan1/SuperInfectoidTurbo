@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: 2865572e5bd1c5e438dc994197cc18b2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2910597366061408836
+    second: cellule idle_0
+  - first:
+      213: -2793147866986606669
+    second: cellule idle_1
+  - first:
+      213: 8561734689621528017
+    second: cellule idle_2
+  - first:
+      213: 2565675410349141031
+    second: cellule idle_3
+  - first:
+      213: 8874594835986958371
+    second: cellule idle_4
+  - first:
+      213: -992232706109038807
+    second: cellule idle_5
+  - first:
+      213: -6945802625830280125
+    second: cellule idle_6
+  - first:
+      213: 7033465120685170639
+    second: cellule idle_7
+  - first:
+      213: 1589371609145007837
+    second: cellule idle_8
+  - first:
+      213: -8060886246289185877
+    second: cellule idle_9
+  - first:
+      213: -6157685830910919219
+    second: cellule idle_10
+  - first:
+      213: -4361454953769043438
+    second: cellule idle_11
+  - first:
+      213: 3828933247507177080
+    second: cellule idle_12
+  - first:
+      213: 1842190375483862586
+    second: cellule idle_13
+  - first:
+      213: -7314787346625535780
+    second: cellule idle_14
+  - first:
+      213: -195143536734449008
+    second: cellule idle_15
+  - first:
+      213: 1844384268626157350
+    second: cellule idle_16
+  - first:
+      213: 5159418892828298500
+    second: cellule idle_17
+  - first:
+      213: -1150214478185839892
+    second: cellule idle_18
+  - first:
+      213: -2697605770094376337
+    second: cellule idle_19
+  - first:
+      213: -2314414751328100424
+    second: cellule idle_20
+  - first:
+      213: -2220261279096977805
+    second: cellule idle_21
+  - first:
+      213: 6103098874780442712
+    second: cellule idle_22
+  - first:
+      213: -5374595631144851349
+    second: cellule idle_23
+  - first:
+      213: -3383194795902581509
+    second: cellule idle_24
+  - first:
+      213: 1084928665323656599
+    second: cellule idle_25
+  - first:
+      213: -4746405153241512739
+    second: cellule idle_26
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cellule idle_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3053
+        width: 453
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a191cc13824a704496816c1a05d4c68
+      internalID: 2910597366061408836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_1
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 3053
+        width: 455
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3602af0309a5fe43be846cb9971b638
+      internalID: -2793147866986606669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_2
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 3051
+        width: 454
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738e89bd41d319b4eb1499ece9c1f914
+      internalID: 8561734689621528017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_3
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 3051
+        width: 455
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a382fcacd5c145884d3b7ebd55ccb
+      internalID: 2565675410349141031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2551
+        width: 455
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e695f9f5398f9764a8182069473a006b
+      internalID: 8874594835986958371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_5
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2551
+        width: 455
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b6dd9368440464e86f74427ec9be78
+      internalID: -992232706109038807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_6
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2551
+        width: 456
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0f7b74755e75b4294663f1c19b92ab
+      internalID: -6945802625830280125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_7
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 2551
+        width: 456
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89849458803b09a40bcd389577129186
+      internalID: 7033465120685170639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2050
+        width: 457
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c2e236eb71f4e4c9ea1b32d91251a9
+      internalID: 1589371609145007837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_9
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2049
+        width: 457
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9148a0ad3aa514192e869bac144108
+      internalID: -8060886246289185877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_10
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2050
+        width: 457
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2ca7318799ba342b34a9d4e64c7ad3
+      internalID: -6157685830910919219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_11
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 2050
+        width: 457
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2938952a7847cd74bbb13b450740d280
+      internalID: -4361454953769043438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1549
+        width: 457
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680aa2c3324d7994988e39d324326b80
+      internalID: 3828933247507177080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_13
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1550
+        width: 457
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d1cdb7c4ee43c45951884c422aad81
+      internalID: 1842190375483862586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_14
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1551
+        width: 457
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45617e9b15be85e4787d2ebd1574a4f4
+      internalID: -7314787346625535780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_15
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1551
+        width: 458
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af0119150ead834ba09ac608f4d2d4b
+      internalID: -195143536734449008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1051
+        width: 457
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce222758a0ea34bbbe9e06843417ad
+      internalID: 1844384268626157350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_17
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1052
+        width: 458
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a26020d3bef55041a1045c422d20135
+      internalID: 5159418892828298500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_18
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1052
+        width: 458
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f70ada0b299cb8418b3e526d9947eaf
+      internalID: -1150214478185839892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_19
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 1052
+        width: 458
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f26aadbd599ed4bb92032bbf92a77e
+      internalID: -2697605770094376337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 552
+        width: 456
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deaebd22645e3c4eb9db35880ce8a83
+      internalID: -2314414751328100424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_21
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 553
+        width: 457
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a75393114af8c949a56adcca5bc3848
+      internalID: -2220261279096977805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_22
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 553
+        width: 456
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48446db807ba4c4aa052f8d5c183033
+      internalID: 6103098874780442712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_23
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 553
+        width: 457
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc8bdf5ca1e90c4f99cb0305576424e
+      internalID: -5374595631144851349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 52
+        width: 455
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6ddfa3bbd898f4589fe1dad090b448
+      internalID: -3383194795902581509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_25
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 52
+        width: 455
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f4e748d29d2fb4da26045581433459
+      internalID: 1084928665323656599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cellule idle_26
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 52
+        width: 455
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec0948653f04534b99a1f0d44e03c01
+      internalID: -4746405153241512739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

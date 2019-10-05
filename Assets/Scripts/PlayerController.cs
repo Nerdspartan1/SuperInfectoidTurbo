@@ -79,6 +79,7 @@ public class PlayerController : MonoBehaviour
 	public IEnumerator AttackCellCoroutine(Cell cell)
 	{
 		_isInfectingCell = true;
+		cell.StartInfecting();
 		_rigidbody.isKinematic = true;
 		_collider.enabled = false;
 
@@ -100,6 +101,8 @@ public class PlayerController : MonoBehaviour
 				_rigidbody.velocity = 30*infectionRate*(startPos - cell.transform.position);
 
 				_collider.enabled = true;
+
+				cell.StopInfecting();
 
 				yield break;
 			}
