@@ -20,7 +20,15 @@ public class EnemiesManager : MonoBehaviour
 
 	public Text InfectedCount;
 
-    void Update()
+	public void Start()
+	{
+		_timeBeforeNextWave = 0.0f;
+		numberOfCells = 0;
+		numberOfCellsDestroyed = 0;
+		numberOfEnemies = 0;
+	}
+
+	void Update()
     {
 		if(_timeBeforeNextWave < 0.0f)
 		{
@@ -43,9 +51,6 @@ public class EnemiesManager : MonoBehaviour
 
 		InfectedCount.text = $"Cells infected : {numberOfCellsDestroyed}";
 	}
-
-
-
 
     private void Spawn(GameObject enemy)
     {

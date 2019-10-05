@@ -505,7 +505,7 @@ MonoBehaviour:
   gamePhase: 0
   Menu: {fileID: 649228711}
   Game: {fileID: 1168490295}
-  GameOverScreen: {fileID: 1160743559}
+  GameOverScreen: {fileID: 590345340}
   ScoreText: {fileID: 986604469}
   camera: {fileID: 519420031}
   defaultOrthographicSize: 6
