@@ -41,24 +41,13 @@ public class PlayerController : MonoBehaviour
 
 			Vector2 acceleration = maxAcceleration * input;
 
-		_rigidbody.velocity += acceleration/10;
-		if (_rigidbody.velocity.sqrMagnitude > maxVelocity * maxVelocity)
-			_rigidbody.velocity = _rigidbody.velocity.normalized * maxVelocity;
-        
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
-        {
-            GameManager.instance.camera.orthographicSize = GameManager.instance.defaultOrthographicSize + _rigidbody.velocity.magnitude / 5;
-            _timer = 0.0f;
-        }
-        else
-        {
-            _timer += Time.deltaTime;
-            GameManager.instance.camera.orthographicSize = GameManager.instance.defaultOrthographicSize + Mathf.Lerp(_rigidbody.velocity.magnitude / 5, 0, _timer / _lerpTime);
-        }
-
 			_rigidbody.velocity += acceleration;
 			if (_rigidbody.velocity.sqrMagnitude > maxVelocity * maxVelocity)
 				_rigidbody.velocity = _rigidbody.velocity.normalized * maxVelocity;
+        
+
+			GameManager.instance.camera.orthographicSize = Mathf.Lerp(GameManager.instance.camera.orthographicSize, GameManager.instance.defaultOrthographicSize + _rigidbody.velocity.magnitude / 5, 0.1f);
+
 
 			if (Input.GetButtonDown("Jump"))
 			{
