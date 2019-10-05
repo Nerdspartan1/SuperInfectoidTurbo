@@ -70,6 +70,7 @@ public class PlayerController : MonoBehaviour
 	{
 		_isInfectingCell = true;
 		_rigidbody.isKinematic = true;
+		_collider.enabled = false;
 
 		Vector3 startPos = transform.position;
 		float infectionRate = 1 / 3.0f;
@@ -87,8 +88,9 @@ public class PlayerController : MonoBehaviour
 
 				transform.position = startPos;
 				_rigidbody.velocity = 30*infectionRate*(startPos - cell.transform.position);
-				
-				
+
+				_collider.enabled = true;
+
 				yield break;
 			}
 			
@@ -99,5 +101,6 @@ public class PlayerController : MonoBehaviour
 		Destroy(cell.gameObject);
 		_isInfectingCell = false;
 		_rigidbody.isKinematic = false;
+		_collider.enabled = true;
 	}
 }
