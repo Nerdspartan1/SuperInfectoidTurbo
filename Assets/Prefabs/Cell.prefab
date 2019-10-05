@@ -140,6 +140,9 @@ MonoBehaviour:
   VirionsDrop: 5
   VirionPrefab: {fileID: 876088027521212295, guid: ff337a90457a9924681898fba96c8343,
     type: 3}
+  HealObjectPrefab: {fileID: 7183919439157700643, guid: 128341be3e6ede3408fd78fe9e9279ce,
+    type: 3}
+  IsPopped: 0
 --- !u!95 &814676776193832034
 Animator:
   serializedVersion: 3
