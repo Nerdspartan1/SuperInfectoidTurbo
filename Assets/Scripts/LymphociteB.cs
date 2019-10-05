@@ -7,7 +7,9 @@ public class LymphociteB : MonoBehaviour
     public GameObject anticorps;
 
     public float range;
+    public float speed = 0.01f;
 
+    private Rigidbody2D _rigidBody;
     private float _timer;
     private float _timeBetweenShoots = 0.4f;
 
@@ -15,13 +17,19 @@ public class LymphociteB : MonoBehaviour
     void Start()
     {
         _timer = 0;
+        _rigidBody = gameObject.GetComponent<Rigidbody2D>();
+        _rigidBody.freezeRotation = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if ((GameManager.instance.player.transform.position - transform.position).magnitude < range)
         {
+            // Moving
+            _rigidBody.velocity = speed * (GameManager.instance.player.transform.position - gameObject.transform.position);
+
             gameObject.GetComponent<Animator>().SetBool("isAttacking", true);
             _timer += Time.deltaTime;
 
