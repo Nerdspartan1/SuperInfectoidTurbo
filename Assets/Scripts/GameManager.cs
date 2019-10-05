@@ -13,19 +13,27 @@ public class GameManager : MonoBehaviour
 
     public GamePhase gamePhase;
 
-    public GameObject MenuUI;
-    public GameObject GameUI;
-    
+    public GameObject Menu;
+    public GameObject Game;
+
+    public Camera camera;
+
+    public GameObject player;
+
     public float playAreaWidth;
     public float playAreaHeight;
 
     public float parallaxFactor = 500;
 
+    private void Awake()
+    {
+        instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        instance = this;
-        gamePhase = GamePhase.FirstMenuPhase;
+        ChangePhase(GamePhase.FirstMenuPhase);
     }
 
     // Update is called once per frame
@@ -38,13 +46,15 @@ public class GameManager : MonoBehaviour
     {
         if (nextPhase == GamePhase.GamingPhase)
         {
-            MenuUI.SetActive(false);
-            GameUI.SetActive(true);
+            Menu.SetActive(false);
+            Game.SetActive(true);
+            gamePhase = GamePhase.GamingPhase;
         }
         else if (nextPhase == GamePhase.FirstMenuPhase)
         {
-            GameUI.SetActive(false);
-            MenuUI.SetActive(true);
+            Game.SetActive(false);
+            Menu.SetActive(true);
+            gamePhase = GamePhase.FirstMenuPhase;
         }
     }
 

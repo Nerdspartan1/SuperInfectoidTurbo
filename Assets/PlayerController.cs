@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
 	public float maxAcceleration;
 	public float maxVelocity;
 	private Collider2D _collider;
@@ -23,5 +22,7 @@ public class PlayerController : MonoBehaviour
 		_rigidbody.velocity += acceleration;
 		if (_rigidbody.velocity.sqrMagnitude > maxVelocity * maxVelocity)
 			_rigidbody.velocity = _rigidbody.velocity.normalized * maxVelocity;
+
+        GameManager.instance.camera.transform.position = new Vector3(transform.position.x, transform.position.y, GameManager.instance.camera.transform.position.z);
     }
 }
