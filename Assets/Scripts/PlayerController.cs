@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
 
 	public float stunTime = 0.5f;
 
+	public HealthIcon HealthIcon;
+
 	public void Start()
 	{
 		_collider = GetComponent<Collider2D>();
@@ -119,6 +121,7 @@ public class PlayerController : MonoBehaviour
 	{
         PlayHitSound();
         StartCoroutine(GetOofedCoroutine());
+		HealthIcon.UpdateIcon(_damageable.life);
 	}
 
 	private IEnumerator GetOofedCoroutine()

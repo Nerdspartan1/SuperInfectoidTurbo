@@ -40,6 +40,7 @@ public class Heal : MonoBehaviour
 		if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
 		{
 			collision.gameObject.GetComponent<Damageable>().Heal(5);
+			collision.gameObject.GetComponent<PlayerController>().HealthIcon.UpdateIcon(5);
 			Destroy(gameObject);
 		}
     }
