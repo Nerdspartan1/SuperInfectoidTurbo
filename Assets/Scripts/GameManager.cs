@@ -59,6 +59,7 @@ public class GameManager : MonoBehaviour
                 Game.SetActive(true);
                 Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
                 Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
+                Destroy(Controls.GetComponent<VideoPlayer3>().videoPlayer);
                 gamePhase = GamePhase.GamingPhase;
 				break;
 			case GamePhase.FirstMenuPhase:
@@ -67,6 +68,7 @@ public class GameManager : MonoBehaviour
                 Controls.SetActive(false);
                 Menu.SetActive(true);
                 Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
+                Destroy(Controls.GetComponent<VideoPlayer3>().videoPlayer);
                 Menu.GetComponent<VideoPlayer>().PlayVideo();
                 gamePhase = GamePhase.FirstMenuPhase;
 				break;
@@ -77,6 +79,7 @@ public class GameManager : MonoBehaviour
                 Credit.SetActive(true);
                 Credit.GetComponent<VideoPlayer2>().PlayVideo();
                 Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
+                Destroy(Controls.GetComponent<VideoPlayer3>().videoPlayer);
                 gamePhase = GamePhase.CreditPhase;
                 break;
             case GamePhase.ControlsPhase:
@@ -86,6 +89,7 @@ public class GameManager : MonoBehaviour
                 Controls.SetActive(true);
                 Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
                 Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
+                Controls.GetComponent<VideoPlayer3>().PlayVideo();
                 gamePhase = GamePhase.ControlsPhase;
                 break;
         }

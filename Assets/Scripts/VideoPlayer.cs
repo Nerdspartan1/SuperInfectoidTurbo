@@ -5,6 +5,7 @@ using UnityEngine;
 public class VideoPlayer : MonoBehaviour
 {
     public UnityEngine.Video.VideoPlayer videoPlayer;
+    public UnityEngine.Video.VideoClip videoClip;
 
     void Start()
     {
@@ -40,7 +41,7 @@ public class VideoPlayer : MonoBehaviour
 
         // Set the video to play. URL supports local absolute or relative paths.
         // Here, using absolute.
-        videoPlayer.url = "Assets/Sprites/Scenary/titre super infectoïd turbo mp4.mp4";
+        videoPlayer.clip = videoClip;
 
         // Skip the first 100 frames.
         videoPlayer.frame = 100;

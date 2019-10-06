@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VideoPlayer2 : MonoBehaviour
+public class VideoPlayer3 : MonoBehaviour
 {
     public UnityEngine.Video.VideoPlayer videoPlayer;
     public UnityEngine.Video.VideoClip videoClip;
 
     void Start()
     {
-        
 
-        
+
+
     }
 
     void EndReached(UnityEngine.Video.VideoPlayer vp)
