@@ -14,12 +14,14 @@ public class Virion : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private Vector2 _direction;
-    private float _speed = 1000;
+    private float _speed = 2000;
+    private Vector2 _randomUnit;
     
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = gameObject.GetComponent<Rigidbody2D>();
+        _randomUnit = 2*Random.onUnitSphere;
         state = State.Orbiting;
     }
 
@@ -28,7 +30,7 @@ public class Virion : MonoBehaviour
     {
         if (state == State.Orbiting)
         {
-            Vector2 direction = new Vector2(GameManager.instance.player.transform.position.x - transform.position.x, GameManager.instance.player.transform.position.y - transform.position.y).normalized;
+            Vector2 direction = new Vector2(GameManager.instance.player.transform.position.x + _randomUnit.x - transform.position.x, GameManager.instance.player.transform.position.y + _randomUnit.y - transform.position.y).normalized;
             _rigidbody.velocity += Vector3.Distance(GameManager.instance.player.transform.position, transform.position) * direction / 10;
         }
     }

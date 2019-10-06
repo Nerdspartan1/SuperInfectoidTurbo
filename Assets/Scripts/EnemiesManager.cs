@@ -12,12 +12,14 @@ public class EnemiesManager : MonoBehaviour
 	public int maxNumberOfCells = 12;
 
 	static public int numberOfEnemies = 0;
+    public static int numberOfKillsBeforeSuperLymphocyte = 0;
 	public int maxNumberOfEnemies = 20;
 
 	public float EnemyWavePeriod = 2.0f;
 	private float _timeBeforeNextWave = 0.0f;
 
     public GameObject LymphocyteBPrefab;
+    public GameObject SuperLymphocyteBPrefab;
 	public GameObject CellPrefab;
 
 	public Score score;
@@ -40,14 +42,20 @@ public class EnemiesManager : MonoBehaviour
 				numberOfCells++;
 			}
 
-
 			for (int i = numberOfEnemies; i < Mathf.Min(numberOfCellsDestroyed,maxNumberOfEnemies); i++)
 			{
 				Spawn(LymphocyteBPrefab);
 				numberOfEnemies++;
 			}
 
-			_timeBeforeNextWave = EnemyWavePeriod;
+            if (numberOfKillsBeforeSuperLymphocyte > 5)
+            {
+                Spawn(SuperLymphocyteBPrefab);
+                numberOfKillsBeforeSuperLymphocyte = 0;
+                numberOfEnemies++;
+            }
+
+            _timeBeforeNextWave = EnemyWavePeriod;
 		}
 		_timeBeforeNextWave -= Time.deltaTime;
 
