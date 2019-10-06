@@ -11,6 +11,9 @@ public class LymphociteB : MonoBehaviour
 	public float attackRange = 15;
     public float speed = 0.01f;
 
+    public AudioClip shootSound;
+    public AudioClip dieSound;
+
     protected Rigidbody2D _rigidBody;
     protected float _timer;
     public float timeBetweenShoots = 1.0f;
@@ -56,6 +59,7 @@ public class LymphociteB : MonoBehaviour
 
         if (_timer > timeBetweenShoots)
         {
+            MakeSound(shootSound);
             GameObject bullet = Instantiate(anticorps, transform.position, transform.rotation, GameManager.instance.Game.transform);
             bullet.GetComponent<BulletScript>().direction = (GameManager.instance.player.transform.position - bullet.transform.position).normalized;
             _timer = 0;
@@ -64,6 +68,11 @@ public class LymphociteB : MonoBehaviour
 
     public void Die()
     {
+        if (!_isDead)
+        {
+            MakeSound(dieSound);
+        }
+        
 		_isDead = true;
 		_animator.SetBool("isAttacking", false);
 		_animator.SetBool("dead", true);
@@ -96,4 +105,9 @@ public class LymphociteB : MonoBehaviour
 
 		Destroy(gameObject);
 	}
+
+    public void MakeSound(AudioClip originalClip)
+    {
+        AudioSource.PlayClipAtPoint(originalClip, transform.position);
+    }
 }

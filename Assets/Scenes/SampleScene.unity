@@ -2428,7 +2428,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4044f8bc4ce9b4e4280b07ae091f4522, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2710,6 +2710,21 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6193667209030059076, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
+        type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4d298d3fa38481040910119295e69cec, type: 3}
+    - target: {fileID: 6193667209030059076, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
+        type: 3}
+      propertyPath: hitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 17e3a76ae4a18954cb39d5ae1b25b7f1, type: 3}
+    - target: {fileID: 6193667209030059076, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
+        type: 3}
+      propertyPath: dieSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 308f811285485374baad5950413a150b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34025ecc6deb15f42ba9f09c8bbe20f9, type: 3}
 --- !u!1 &1663061448 stripped
