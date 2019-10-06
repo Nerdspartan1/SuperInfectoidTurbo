@@ -90,6 +90,11 @@ public class GameManager : MonoBehaviour
         ChangePhase(GamePhase.FirstMenuPhase);
     }
 
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
+
 	public void GameOver()
 	{
 		player.SetActive(false);
