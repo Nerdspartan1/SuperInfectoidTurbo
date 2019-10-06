@@ -97,7 +97,7 @@ public class GameManager : MonoBehaviour
 
 	public void GameOver()
 	{
-		player.SetActive(false);
+		GetComponent<VirionManager>().ClearVirions();
 		ScoreText.text = $"You got eradicated ! Your score : {EnemiesManager.numberOfCellsDestroyed}";
 		GameOverScreen.SetActive(true);
 	}

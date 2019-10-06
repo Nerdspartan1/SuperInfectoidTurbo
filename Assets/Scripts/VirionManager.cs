@@ -43,4 +43,14 @@ public class VirionManager : MonoBehaviour
             }
         }
     }
+
+
+	public void ClearVirions()
+	{
+		foreach(var v in virions)
+		{
+			Destroy(v.gameObject);
+		}
+		virions.Clear();
+	}
 }
