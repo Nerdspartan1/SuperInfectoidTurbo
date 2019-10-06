@@ -165,7 +165,12 @@ public class PlayerController : MonoBehaviour
 
     public void MakeSound(AudioClip originalClip)
     {
-        AudioSource.PlayClipAtPoint(originalClip, transform.position);
+        AudioSource audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource.clip = originalClip;
+        float pitch = 1.0f + Random.Range(-0.2f, 0.2f);
+        audioSource.pitch = pitch;
+        audioSource.Play();
+        //AudioSource.PlayClipAtPoint(originalClip, transform.position);
     }
 
 }
