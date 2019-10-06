@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 05fc2eb86babbef48bf675e185cfc38f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 960956551851885468
+    second: lymphocyte B 2_0
+  - first:
+      213: 2297802319039931050
+    second: lymphocyte B 2_1
+  - first:
+      213: 2910638988687230233
+    second: lymphocyte B 2_2
+  - first:
+      213: 8172656588290668688
+    second: lymphocyte B 2_3
+  - first:
+      213: -3552692595692326735
+    second: lymphocyte B 2_4
+  - first:
+      213: -9042128261971533805
+    second: lymphocyte B 2_5
+  - first:
+      213: 1503009071971304813
+    second: lymphocyte B 2_6
+  - first:
+      213: 7255139479292693415
+    second: lymphocyte B 2_7
+  - first:
+      213: -3711154899528649148
+    second: lymphocyte B 2_8
+  - first:
+      213: -8772501971332758928
+    second: lymphocyte B 2_9
+  - first:
+      213: 2984801326907051902
+    second: lymphocyte B 2_10
+  - first:
+      213: -7257456540735238246
+    second: lymphocyte B 2_11
+  - first:
+      213: 2486700946412633486
+    second: lymphocyte B 2_12
+  - first:
+      213: -7075130528771864665
+    second: lymphocyte B 2_13
+  - first:
+      213: 5869424686758339521
+    second: lymphocyte B 2_14
+  - first:
+      213: 7451515420030650983
+    second: lymphocyte B 2_15
+  - first:
+      213: -5751757106611810975
+    second: lymphocyte B 2_16
+  - first:
+      213: -6947336338142613964
+    second: lymphocyte B 2_17
+  - first:
+      213: 4026654592865956000
+    second: lymphocyte B 2_18
+  - first:
+      213: 826817461361300315
+    second: lymphocyte B 2_19
+  - first:
+      213: 3411905399901851252
+    second: lymphocyte B 2_20
+  - first:
+      213: -5298054612456219634
+    second: lymphocyte B 2_21
+  - first:
+      213: 5857649224910002962
+    second: lymphocyte B 2_22
+  - first:
+      213: 498814311952553238
+    second: lymphocyte B 2_23
+  - first:
+      213: -7763850790328600979
+    second: lymphocyte B 2_24
+  - first:
+      213: -8298552626252287914
+    second: lymphocyte B 2_25
+  - first:
+      213: -5821432073185623474
+    second: lymphocyte B 2_26
+  - first:
+      213: -678182793220835613
+    second: lymphocyte B 2_27
+  - first:
+      213: -4930962201904442627
+    second: lymphocyte B 2_28
+  - first:
+      213: 3861037127303778267
+    second: lymphocyte B 2_29
+  - first:
+      213: -6759686247376101334
+    second: lymphocyte B 2_30
+  - first:
+      213: 7906078389423429642
+    second: lymphocyte B 2_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lymphocyte B 2_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1552
+        width: 338
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf1cb372ac4e474e965ecbf4db08286
+      internalID: 960956551851885468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1560
+        width: 350
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc38880cdff5684abbcd4f0db6595bb
+      internalID: 2297802319039931050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_2
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1567
+        width: 362
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa65427c60e629479ccbf126f596fa6
+      internalID: 2910638988687230233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_3
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 1571
+        width: 370
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e2a423b043ef7458e4339ca3e202e8
+      internalID: 8172656588290668688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_4
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1573
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8eaec21c70f4949a734f9084e207e0
+      internalID: -3552692595692326735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_5
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 1573
+        width: 378
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c8ff503117de64293f9758767ac04b
+      internalID: -9042128261971533805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_6
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 1573
+        width: 377
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e7038aead17b846973ae2a41590c45
+      internalID: 1503009071971304813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_7
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 1573
+        width: 377
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891ab99fabdecba46a64ef8329223db9
+      internalID: 7255139479292693415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1073
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e9a73a53eadaf4eac7d4bc9a104c06
+      internalID: -3711154899528649148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_9
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1075
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28996ea7d5faaae43858f68b379712a9
+      internalID: -8772501971332758928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_10
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1075
+        width: 379
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d5b5e03efd43f4dac008c33316c52a
+      internalID: 2984801326907051902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_11
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1073
+        width: 379
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1be7e959baa2e45aa0e426a4943fa0
+      internalID: -7257456540735238246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_12
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1073
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e7bf923e5ffff479df13173ec03b86
+      internalID: 2486700946412633486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_13
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 1075
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3670bb4d0807ee1478eb12b353e60cb2
+      internalID: -7075130528771864665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_14
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 1075
+        width: 377
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023d89a9d0564ca40913e3c5ec6b92c2
+      internalID: 5869424686758339521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_15
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 1073
+        width: 377
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c5e02075aacfd47ab48c0391b0f65d
+      internalID: 7451515420030650983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 573
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a02046900ea084495cf176cf6453bd
+      internalID: -5751757106611810975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_17
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 575
+        width: 378
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7de362c5b4f7204c8e07de2d8731170
+      internalID: -6947336338142613964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_18
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 575
+        width: 379
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28a0fad6efb2e24aa4c2d00a04ad744
+      internalID: 4026654592865956000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_19
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 573
+        width: 379
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cdaf3b18ae0da4892c332a6178d5c1
+      internalID: 826817461361300315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_20
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 573
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d741ebaaf65ca479c9e3037f4ebbb2
+      internalID: 3411905399901851252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_21
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 577
+        width: 378
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc53296e195e5f40a9784ce027c962b
+      internalID: -5298054612456219634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_22
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 583
+        width: 398
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020bf02ce471fc14dac9467192869289
+      internalID: 5857649224910002962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_23
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 497
+        width: 289
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5ea88f0a58ec144bcfe76da09492af
+      internalID: 498814311952553238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 15
+        width: 308
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3981085e48cd5fc4987e1980c810546c
+      internalID: -7763850790328600979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_25
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 21
+        width: 308
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb4b6975d0cfca49b1a2c77d9dc92b9
+      internalID: -8298552626252287914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_26
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 21
+        width: 308
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e91d8e7af6440f47b8c69faf2307bc1
+      internalID: -5821432073185623474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_27
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 15
+        width: 308
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5885671876bb2c4398b941ce2dfc137
+      internalID: -678182793220835613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_28
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 15
+        width: 308
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7d138486872df4caef5065877e9d31
+      internalID: -4930962201904442627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_29
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 38
+        width: 328
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3813d769c3ff9479275430599c3532
+      internalID: 3861037127303778267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_30
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 60
+        width: 342
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3860b6585cdc87446845b120464bb035
+      internalID: -6759686247376101334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B 2_31
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 52
+        width: 338
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308dc7a7e3485d44a88425d2c656e4b9
+      internalID: 7906078389423429642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
