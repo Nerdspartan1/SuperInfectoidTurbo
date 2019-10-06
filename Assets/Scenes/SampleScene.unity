@@ -702,7 +702,7 @@ MonoBehaviour:
   player: {fileID: 1663061448}
   playAreaWidth: 88
   playAreaHeight: 46
-  parallaxFactor: 10000000
+  parallaxFactor: 2000000
 --- !u!4 &455456716
 Transform:
   m_ObjectHideFlags: 0
