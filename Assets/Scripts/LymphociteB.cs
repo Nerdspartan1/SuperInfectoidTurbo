@@ -8,7 +8,7 @@ public class LymphociteB : MonoBehaviour
 
 	public GameObject HealObjectPrefab;
 
-	public float range;
+	public float attackRange = 15;
     public float speed = 0.01f;
 
     private Rigidbody2D _rigidBody;
@@ -27,10 +27,9 @@ public class LymphociteB : MonoBehaviour
     void Update()
     {
 
-        if ((GameManager.instance.player.transform.position - transform.position).magnitude < range)
+        if ((GameManager.instance.player.transform.position - transform.position).magnitude < attackRange) //attack range
         {
-            // Moving
-            _rigidBody.velocity = speed * (GameManager.instance.player.transform.position - gameObject.transform.position);
+
 
             gameObject.GetComponent<Animator>().SetBool("isAttacking", true);
             _timer += Time.deltaTime;
@@ -46,9 +45,10 @@ public class LymphociteB : MonoBehaviour
         {
             gameObject.GetComponent<Animator>().SetBool("isAttacking", false);
             _timer = 0;
-        }
-        
-    }
+		}
+		// Move
+		_rigidBody.velocity = speed * (GameManager.instance.player.transform.position - gameObject.transform.position);
+	}
 
     public void Die()
     {
