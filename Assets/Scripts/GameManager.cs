@@ -20,7 +20,8 @@ public class GameManager : MonoBehaviour
     public GameObject Game;
     public GameObject Credit;
 	public GameObject GameOverScreen;
-	public Text ScoreText;
+	public Score Score;
+	public Score EndScore;
 
     new public Camera camera;
     public float defaultOrthographicSize = 6;
@@ -98,7 +99,8 @@ public class GameManager : MonoBehaviour
 	public void GameOver()
 	{
 		GetComponent<VirionManager>().ClearVirions();
-		ScoreText.text = $"You got eradicated ! Your score : {EnemiesManager.numberOfCellsDestroyed}";
+		Score.gameObject.SetActive(false);
+		EndScore.UpdateScore(EnemiesManager.numberOfCellsDestroyed);
 		GameOverScreen.SetActive(true);
 	}
 

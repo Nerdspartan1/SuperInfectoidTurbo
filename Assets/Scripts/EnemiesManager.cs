@@ -20,7 +20,7 @@ public class EnemiesManager : MonoBehaviour
     public GameObject LymphocyteBPrefab;
 	public GameObject CellPrefab;
 
-	public Text InfectedCount;
+	public Score score;
 
 	public void Start()
 	{
@@ -51,7 +51,7 @@ public class EnemiesManager : MonoBehaviour
 		}
 		_timeBeforeNextWave -= Time.deltaTime;
 
-		InfectedCount.text = $"Cells infected : {numberOfCellsDestroyed}";
+		score.UpdateScore(numberOfCellsDestroyed);
 	}
 
     private void Spawn(GameObject enemy)
