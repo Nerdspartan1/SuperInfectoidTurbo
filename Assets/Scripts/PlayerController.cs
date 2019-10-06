@@ -87,6 +87,8 @@ public class PlayerController : MonoBehaviour
 			{
 				_rigidbody.velocity = 30 * infectionRate * (startPos - cell.transform.position);
 
+				if (cell) cell.StopInfecting();
+
 				goto FinishInfecting;
 			}
 
