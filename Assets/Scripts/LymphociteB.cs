@@ -11,9 +11,9 @@ public class LymphociteB : MonoBehaviour
 	public float attackRange = 15;
     public float speed = 0.01f;
 
-    private Rigidbody2D _rigidBody;
-    private float _timer;
-    private float _timeBetweenShoots = 1.0f;
+    protected Rigidbody2D _rigidBody;
+    protected float _timer;
+    public float timeBetweenShoots = 1.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,17 +29,8 @@ public class LymphociteB : MonoBehaviour
 
         if ((GameManager.instance.player.transform.position - transform.position).magnitude < attackRange) //attack range
         {
-
-
             gameObject.GetComponent<Animator>().SetBool("isAttacking", true);
-            _timer += Time.deltaTime;
-
-            if (_timer > _timeBetweenShoots)
-            {
-                GameObject bullet = Instantiate(anticorps, transform.position, transform.rotation, GameManager.instance.Game.transform);
-                bullet.GetComponent<BulletScript>().direction = (GameManager.instance.player.transform.position - bullet.transform.position).normalized;
-                _timer = 0;
-            }
+            Shoot();
         }
         else
         {
@@ -50,9 +41,22 @@ public class LymphociteB : MonoBehaviour
 		_rigidBody.velocity = speed * (GameManager.instance.player.transform.position - gameObject.transform.position);
 	}
 
+    public virtual void Shoot()
+    {
+        _timer += Time.deltaTime;
+
+        if (_timer > timeBetweenShoots)
+        {
+            GameObject bullet = Instantiate(anticorps, transform.position, transform.rotation, GameManager.instance.Game.transform);
+            bullet.GetComponent<BulletScript>().direction = (GameManager.instance.player.transform.position - bullet.transform.position).normalized;
+            _timer = 0;
+        }
+    }
+
     public void Die()
     {
         EnemiesManager.numberOfEnemies--;
+        EnemiesManager.numberOfKillsBeforeSuperLymphocyte++;
 		int chance = Random.Range(0, 3);
 		if (chance == 0)
 		{

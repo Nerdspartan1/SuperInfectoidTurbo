@@ -729,10 +729,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817b416e11c592b4cba61e9bc47a0589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minPlayerSpawnDistance: 0
   maxNumberOfCells: 32
   maxNumberOfEnemies: 20
   EnemyWavePeriod: 5
   LymphocyteBPrefab: {fileID: 2937576770091804189, guid: 57774430d75af17429f4d86f0d69db54,
+    type: 3}
+  SuperLymphocyteBPrefab: {fileID: 5200981970838800270, guid: 475c8021536df494cb4bf7b7c6814497,
     type: 3}
   CellPrefab: {fileID: 798596334376095960, guid: b55c667cc9c0581469f167dd50126565,
     type: 3}
