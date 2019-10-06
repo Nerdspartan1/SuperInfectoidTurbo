@@ -12,7 +12,8 @@ public class EnemiesManager : MonoBehaviour
 	public int maxNumberOfCells = 12;
 
 	static public int numberOfEnemies = 0;
-    public static int numberOfKillsBeforeSuperLymphocyte = 0;
+    public static int numberOfKillsBeforeSuperLymphocyte = 10;
+	public static int numberOfKillsToSpawnLymphocyte = 10;
 	public int maxNumberOfEnemies = 20;
 
 	public float EnemyWavePeriod = 2.0f;
@@ -44,16 +45,17 @@ public class EnemiesManager : MonoBehaviour
 
 			for (int i = numberOfEnemies; i < Mathf.Min(numberOfCellsDestroyed,maxNumberOfEnemies); i++)
 			{
-				Spawn(LymphocyteBPrefab);
+				if (numberOfKillsBeforeSuperLymphocyte <= 0)
+				{
+					Spawn(SuperLymphocyteBPrefab);
+					numberOfKillsBeforeSuperLymphocyte = numberOfKillsToSpawnLymphocyte--;
+				}
+				else
+				{
+					Spawn(LymphocyteBPrefab);
+				}
 				numberOfEnemies++;
 			}
-
-            if (numberOfKillsBeforeSuperLymphocyte > 5)
-            {
-                Spawn(SuperLymphocyteBPrefab);
-                numberOfKillsBeforeSuperLymphocyte = 0;
-                numberOfEnemies++;
-            }
 
             _timeBeforeNextWave = EnemyWavePeriod;
 		}

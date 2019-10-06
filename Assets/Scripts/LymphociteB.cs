@@ -56,7 +56,7 @@ public class LymphociteB : MonoBehaviour
     public void Die()
     {
         EnemiesManager.numberOfEnemies--;
-        EnemiesManager.numberOfKillsBeforeSuperLymphocyte++;
+        EnemiesManager.numberOfKillsBeforeSuperLymphocyte--;
 		int chance = Random.Range(0, 3);
 		if (chance == 0)
 		{

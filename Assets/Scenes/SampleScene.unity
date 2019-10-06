@@ -730,9 +730,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 817b416e11c592b4cba61e9bc47a0589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minPlayerSpawnDistance: 0
+  minPlayerSpawnDistance: 20
   maxNumberOfCells: 32
-  maxNumberOfEnemies: 20
+  maxNumberOfEnemies: 14
   EnemyWavePeriod: 5
   LymphocyteBPrefab: {fileID: 2937576770091804189, guid: 57774430d75af17429f4d86f0d69db54,
     type: 3}
