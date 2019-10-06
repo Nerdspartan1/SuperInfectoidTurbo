@@ -40,7 +40,7 @@ public class VideoPlayer2 : MonoBehaviour
 
         // Set the video to play. URL supports local absolute or relative paths.
         // Here, using absolute.
-        videoPlayer.url = "Assets/Sprites/Scenary/crédit.mp4";
+        videoPlayer.url = "Assets/Sprites/Scenary/crédit_1.mp4";
 
         // Skip the first 100 frames.
         videoPlayer.frame = 100;
