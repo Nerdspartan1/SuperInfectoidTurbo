@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour
 	public GameObject GameOverScreen;
 	public Score Score;
 	public Score EndScore;
+	public Score HighScore;
 
     new public Camera camera;
     public float defaultOrthographicSize = 6;
@@ -102,6 +103,11 @@ public class GameManager : MonoBehaviour
 		Score.gameObject.SetActive(false);
 		EndScore.UpdateScore(EnemiesManager.numberOfCellsDestroyed);
 		GameOverScreen.SetActive(true);
+		int high_score = PlayerPrefs.GetInt("high_score", 0);
+		if (EnemiesManager.numberOfCellsDestroyed > high_score)
+			high_score = EnemiesManager.numberOfCellsDestroyed;
+			PlayerPrefs.SetInt("high_score", high_score);
+		HighScore.UpdateScore(high_score);
 	}
 
 	public void Restart()
