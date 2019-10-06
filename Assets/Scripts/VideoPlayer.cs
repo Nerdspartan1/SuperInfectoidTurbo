@@ -44,7 +44,7 @@ public class VideoPlayer : MonoBehaviour
         videoPlayer.clip = videoClip;
 
         // Skip the first 100 frames.
-        videoPlayer.frame = 100;
+        videoPlayer.frame = 0;
 
         // Restart from beginning when done.
         videoPlayer.isLooping = false;
