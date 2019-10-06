@@ -26,7 +26,10 @@ public class Heal : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.collider.gameObject.GetComponent<PlayerController>().Heal(5);
-        Destroy(gameObject);
+		if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
+		{
+			collision.gameObject.GetComponent<Damageable>().Heal(5);
+			Destroy(gameObject);
+		}
     }
 }

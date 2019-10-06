@@ -124,9 +124,6 @@ public class PlayerController : MonoBehaviour
 		_isOof = false;
 	}
 
-    public void Heal(int hpHealed)
-    {
-        _damageable.life += hpHealed;
-    }
+
 }
 
