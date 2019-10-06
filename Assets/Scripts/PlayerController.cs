@@ -9,6 +9,10 @@ public class PlayerController : MonoBehaviour
 	public float maxVelocity;
 	public float cellInfectionRadius;
 
+    public AudioClip hitSound;
+    public AudioClip shootSound;
+    public AudioClip dieSound;
+
 	private Collider2D _collider;
 	private Rigidbody2D _rigidbody;
 	private Animator _animator;
@@ -113,7 +117,8 @@ public class PlayerController : MonoBehaviour
 
 	public void GetOofed()
 	{
-		StartCoroutine(GetOofedCoroutine());
+        PlayHitSound();
+        StartCoroutine(GetOofedCoroutine());
 	}
 
 	private IEnumerator GetOofedCoroutine()
@@ -130,12 +135,35 @@ public class PlayerController : MonoBehaviour
 
 	public void Die()
 	{
+        if (!_isDead)
+        {
+            PlayDieSound();
+        }
 		_rigidbody.freezeRotation = false;
 		_isDead = true;
 		_animator.SetBool("dead", true);
 		_animator.SetInteger("direction", -5);
 	}
+    
+    public void PlayHitSound()
+    {
+        MakeSound(hitSound);
+    }
 
+    public void PlayShootSound()
+    {
+        MakeSound(shootSound);
+    }
+
+    public void PlayDieSound()
+    {
+        MakeSound(dieSound);
+    }
+
+    public void MakeSound(AudioClip originalClip)
+    {
+        AudioSource.PlayClipAtPoint(originalClip, transform.position);
+    }
 
 }
 

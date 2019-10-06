@@ -103,6 +103,8 @@ MonoBehaviour:
     type: 3}
   attackRange: 15
   speed: 0.1
+  shootSound: {fileID: 8300000, guid: eb31012f832349b459522d2fbcdd73c3, type: 3}
+  dieSound: {fileID: 8300000, guid: c2e2126b376c86641b2dd2e01074c439, type: 3}
   timeBetweenShoots: 2
 --- !u!58 &3470152830563657437
 CircleCollider2D:

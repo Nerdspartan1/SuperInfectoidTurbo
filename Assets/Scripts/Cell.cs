@@ -11,6 +11,8 @@ public class Cell : MonoBehaviour
 	private Vector2 _perlinDirection;
 	private Animator _animator;
 
+    public AudioClip dieSound;
+
 	public int VirionsDrop = 5;
 	public GameObject VirionPrefab;
 	private VirionManager _virionManager;
@@ -49,6 +51,7 @@ public class Cell : MonoBehaviour
 
 	public void Pop(bool infected)
 	{
+        MakeSound(dieSound);
 		IsPopped = true;
 		_animator.SetTrigger("pop");
 		
@@ -77,4 +80,9 @@ public class Cell : MonoBehaviour
 			g.GetComponent<Rigidbody2D>().velocity = 6 * Random.insideUnitCircle;
 		}
 	}
+
+    public void MakeSound(AudioClip originalClip)
+    {
+        AudioSource.PlayClipAtPoint(originalClip, transform.position);
+    }
 }

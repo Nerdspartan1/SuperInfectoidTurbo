@@ -11,6 +11,13 @@ public class VirionManager : MonoBehaviour
     private Virion _targetingVirion;
     private bool _hasFired = false;
 
+    private PlayerController _playerController;
+
+    private void Start()
+    {
+        _playerController = GameManager.instance.player.GetComponent<PlayerController>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -35,6 +42,7 @@ public class VirionManager : MonoBehaviour
             }
             if (!_hasFired && Input.GetAxis("Shoot") != 0 && (Input.GetAxis("Horizontal2") != 0 || Input.GetAxis("Vertical2") != 0))
             {
+                _playerController.PlayShootSound();
                 _targetingVirion.Fire(new Vector2(Input.GetAxis("Horizontal2"), Input.GetAxis("Vertical2")).normalized);
                 virions.Remove(_targetingVirion);
                 _targetingVirion = null;
