@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
 	private bool _isInfectingCell = false;
 	private bool _isOof = false;
+	private bool _isDead = false;
 
 	public float stunTime = 0.5f;
 
@@ -29,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-		if (!_isInfectingCell && !_isOof)
+		if (!_isInfectingCell && !_isOof && !_isDead)
 		{
 			Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
@@ -86,6 +87,8 @@ public class PlayerController : MonoBehaviour
 			{
 				_rigidbody.velocity = 30 * infectionRate * (startPos - cell.transform.position);
 
+				if (cell) cell.StopInfecting();
+
 				goto FinishInfecting;
 			}
 
@@ -123,6 +126,14 @@ public class PlayerController : MonoBehaviour
 
 		_animator.SetBool("oof", false);
 		_isOof = false;
+	}
+
+	public void Die()
+	{
+		_rigidbody.freezeRotation = false;
+		_isDead = true;
+		_animator.SetBool("dead", true);
+		_animator.SetInteger("direction", -5);
 	}
 
 
