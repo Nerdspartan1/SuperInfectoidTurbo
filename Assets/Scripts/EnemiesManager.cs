@@ -58,7 +58,7 @@ public class EnemiesManager : MonoBehaviour
         float x = Random.Range(-GameManager.instance.playAreaWidth / 2, GameManager.instance.playAreaWidth / 2);
         float y = Random.Range(-GameManager.instance.playAreaHeight / 2, GameManager.instance.playAreaHeight / 2);
 
-        Instantiate(enemy, new Vector3(x, y, 0), Quaternion.identity, GameManager.instance.Game.transform);
+        Instantiate(enemy, new Vector3(x, y, -1), Quaternion.identity, GameManager.instance.Game.transform);
 
     }
 }

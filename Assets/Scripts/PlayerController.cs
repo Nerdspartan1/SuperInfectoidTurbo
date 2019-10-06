@@ -90,6 +90,7 @@ public class PlayerController : MonoBehaviour
 			}
 
 			transform.position = Vector3.Lerp(startPos, cell.transform.position, Mathf.Sqrt(infectionPercentage));
+			transform.position = new Vector3(transform.position.x, transform.position.y, 0);
 
 			yield return null;
 		}
