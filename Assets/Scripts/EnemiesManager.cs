@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class EnemiesManager : MonoBehaviour
 {
+
+	public float minPlayerSpawnDistance;
 	static public int numberOfCells = 0;
 	static public int numberOfCellsDestroyed = 0;
 	public int maxNumberOfCells = 12;
@@ -12,7 +14,7 @@ public class EnemiesManager : MonoBehaviour
 	static public int numberOfEnemies = 0;
 	public int maxNumberOfEnemies = 20;
 
-	public float EnemyWavePeriod = 5.0f;
+	public float EnemyWavePeriod = 2.0f;
 	private float _timeBeforeNextWave = 0.0f;
 
     public GameObject LymphocyteBPrefab;
@@ -54,11 +56,17 @@ public class EnemiesManager : MonoBehaviour
 
     private void Spawn(GameObject enemy)
     {
+		Vector2 spawnPos;
+		do {
 
-        float x = Random.Range(-GameManager.instance.playAreaWidth / 2, GameManager.instance.playAreaWidth / 2);
-        float y = Random.Range(-GameManager.instance.playAreaHeight / 2, GameManager.instance.playAreaHeight / 2);
+			float x = Random.Range(-GameManager.instance.playAreaWidth / 2, GameManager.instance.playAreaWidth / 2);
+			float y = Random.Range(-GameManager.instance.playAreaHeight / 2, GameManager.instance.playAreaHeight / 2);
 
-        Instantiate(enemy, new Vector3(x, y, -1), Quaternion.identity, GameManager.instance.Game.transform);
+			spawnPos = new Vector2(x, y);
+		}
+		while (Vector2.Distance(GameManager.instance.player.transform.position, spawnPos) < minPlayerSpawnDistance);
+
+        Instantiate(enemy, new Vector3(spawnPos.x, spawnPos.y, -1), Quaternion.identity, GameManager.instance.Game.transform);
 
     }
 }
