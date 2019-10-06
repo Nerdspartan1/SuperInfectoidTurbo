@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
     public enum GamePhase {
         FirstMenuPhase = 1,
         GamingPhase = 2,
-        CreditPhase = 3
+        CreditPhase = 3,
+        ControlsPhase = 4
     }
 
     public static GameManager instance;
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     public GameObject Menu;
     public GameObject Game;
     public GameObject Credit;
+    public GameObject Controls;
 	public GameObject GameOverScreen;
 	public Score Score;
 	public Score EndScore;
@@ -53,7 +55,8 @@ public class GameManager : MonoBehaviour
 			case GamePhase.GamingPhase:
 				Menu.SetActive(false);
                 Credit.SetActive(false);
-				Game.SetActive(true);
+                Controls.SetActive(false);
+                Game.SetActive(true);
                 Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
                 Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
                 gamePhase = GamePhase.GamingPhase;
@@ -61,6 +64,7 @@ public class GameManager : MonoBehaviour
 			case GamePhase.FirstMenuPhase:
 				Game.SetActive(false);
                 Credit.SetActive(false);
+                Controls.SetActive(false);
                 Menu.SetActive(true);
                 Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
                 Menu.GetComponent<VideoPlayer>().PlayVideo();
@@ -69,10 +73,20 @@ public class GameManager : MonoBehaviour
             case GamePhase.CreditPhase:
                 Game.SetActive(false);
                 Menu.SetActive(false);
+                Controls.SetActive(false);
                 Credit.SetActive(true);
                 Credit.GetComponent<VideoPlayer2>().PlayVideo();
                 Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
                 gamePhase = GamePhase.CreditPhase;
+                break;
+            case GamePhase.ControlsPhase:
+                Game.SetActive(false);
+                Menu.SetActive(false);
+                Credit.SetActive(false);
+                Controls.SetActive(true);
+                Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
+                Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
+                gamePhase = GamePhase.ControlsPhase;
                 break;
         }
     }
@@ -90,6 +104,11 @@ public class GameManager : MonoBehaviour
     public void ShowMenu()
     {
         ChangePhase(GamePhase.FirstMenuPhase);
+    }
+
+    public void ShowControls()
+    {
+        ChangePhase(GamePhase.ControlsPhase);
     }
 
     public void QuitApp()
