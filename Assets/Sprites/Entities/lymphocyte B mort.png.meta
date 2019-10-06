@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: 71d0fc3148ab9da48831a678705d6aa9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2461495715086537222
+    second: lymphocyte B mort_0
+  - first:
+      213: 5729303646775370867
+    second: lymphocyte B mort_1
+  - first:
+      213: 6993939945407982878
+    second: lymphocyte B mort_2
+  - first:
+      213: -157176290693039878
+    second: lymphocyte B mort_3
+  - first:
+      213: -8137528267296462635
+    second: lymphocyte B mort_4
+  - first:
+      213: 8296977381860829892
+    second: lymphocyte B mort_5
+  - first:
+      213: -484545547527746881
+    second: lymphocyte B mort_6
+  - first:
+      213: -8207003191258317999
+    second: lymphocyte B mort_7
+  - first:
+      213: -8660552518028068354
+    second: lymphocyte B mort_8
+  - first:
+      213: 2886102495115100073
+    second: lymphocyte B mort_9
+  - first:
+      213: -1953997556640123948
+    second: lymphocyte B mort_10
+  - first:
+      213: 8242135200070921269
+    second: lymphocyte B mort_11
+  - first:
+      213: 2255931229011649352
+    second: lymphocyte B mort_12
+  - first:
+      213: -8045490565880216832
+    second: lymphocyte B mort_13
+  - first:
+      213: 4435412026521062507
+    second: lymphocyte B mort_14
+  - first:
+      213: 4838913714403808779
+    second: lymphocyte B mort_15
+  - first:
+      213: 4707695498448220463
+    second: lymphocyte B mort_16
+  - first:
+      213: 5558380195738655277
+    second: lymphocyte B mort_17
+  - first:
+      213: 8110788087645971605
+    second: lymphocyte B mort_18
+  - first:
+      213: 9173501976983197566
+    second: lymphocyte B mort_19
+  - first:
+      213: 5103961255218190496
+    second: lymphocyte B mort_20
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lymphocyte B mort_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1086
+        width: 352
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd82b5d0d3b0f342a9db04e80675438
+      internalID: -2461495715086537222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_1
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1079
+        width: 291
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d962284f487986c4f9550908eb43a287
+      internalID: 5729303646775370867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_2
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1079
+        width: 292
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9cf43cd5b010b498b8ca9fed9bf4e0
+      internalID: 6993939945407982878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_3
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1079
+        width: 303
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2bc89f63927b443a9971d8e84c7a45
+      internalID: -157176290693039878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_4
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1079
+        width: 302
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc70406e91455a14f930ac37a5c67674
+      internalID: -8137528267296462635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_5
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1081
+        width: 306
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be8e3fef7166ef489dce4857679b8c6
+      internalID: 8296977381860829892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_6
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 1081
+        width: 305
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fc2c313eb94044db14f8c660fe8dd4
+      internalID: -484545547527746881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 582
+        width: 307
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b298df054fa7ab4478b01a7f88e8fb39
+      internalID: -8207003191258317999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_8
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 582
+        width: 306
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f553e7f7e3850354095551794e770cb2
+      internalID: -8660552518028068354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_9
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 580
+        width: 304
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03831dd9a0701e148a0b2c88ccd56de3
+      internalID: 2886102495115100073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_10
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 578
+        width: 292
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367179eabce6bf048b70b05c50290821
+      internalID: -1953997556640123948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_11
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 578
+        width: 291
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af799e9bab36384f8c9333c722ce793
+      internalID: 8242135200070921269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_12
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 572
+        width: 291
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf6b162f840aa34faa9b6b4e8b8e861
+      internalID: 2255931229011649352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_13
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 556
+        width: 296
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029ed6f212ce4a0448b8462b9a5e36de
+      internalID: -8045490565880216832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 56
+        width: 297
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52b385bdeb0b9d47a6a8f76f6a8cf2e
+      internalID: 4435412026521062507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_15
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 45
+        width: 297
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3a285b6205936458d722d77c88a80c
+      internalID: 4838913714403808779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_16
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 46
+        width: 378
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c163aae0d9dc8354a9a96689b206326b
+      internalID: 4707695498448220463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_17
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 46
+        width: 377
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be28cb9c106b6284bacfaca252508613
+      internalID: 5558380195738655277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_18
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 64
+        width: 374
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6dbcbc2bd71c547807522eaf0bb07f
+      internalID: 8110788087645971605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_19
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 64
+        width: 373
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453f860feb5f7ce4fa331f20723c3621
+      internalID: 9173501976983197566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lymphocyte B mort_20
+      rect:
+        serializedVersion: 2
+        x: 3115
+        y: 64
+        width: 382
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6db3b56a7519754d894f46358df4af8
+      internalID: 5103961255218190496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
