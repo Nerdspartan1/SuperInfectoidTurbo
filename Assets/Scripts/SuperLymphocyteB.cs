@@ -12,6 +12,7 @@ public class SuperLymphocyteB : LymphociteB
 
     public void Burst()
     {
+        MakeSound(shootSound);
         for (int i = -2; i < 3; i++)
         {
             GameObject bullet = Instantiate(anticorps, transform.position, transform.rotation, GameManager.instance.Game.transform);
