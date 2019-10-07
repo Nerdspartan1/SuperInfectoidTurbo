@@ -108,6 +108,7 @@ MonoBehaviour:
   shootSound: {fileID: 8300000, guid: 327a9aab9a2c6b94ab0ac939270dd54a, type: 3}
   dieSound: {fileID: 8300000, guid: c2e2126b376c86641b2dd2e01074c439, type: 3}
   timeBetweenShoots: 1
+  PointsGainedOnKill: 50
 --- !u!114 &1394700768155118173
 MonoBehaviour:
   m_ObjectHideFlags: 0

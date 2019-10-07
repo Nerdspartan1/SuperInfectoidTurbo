@@ -21,6 +21,8 @@ public class Cell : MonoBehaviour
 
 	public bool IsPopped=false;
 
+	public int PointsGainedOnInfection;
+
 	private void Start()
 	{
 		_rigidbody = GetComponent<Rigidbody2D>();
@@ -67,6 +69,8 @@ public class Cell : MonoBehaviour
                     _virionManager.virions.Add(v.GetComponent<Virion>());
                 }
 			}
+
+			GameManager.instance.GainPoints(PointsGainedOnInfection);
 		}
 		EnemiesManager.numberOfCells--;
 	}

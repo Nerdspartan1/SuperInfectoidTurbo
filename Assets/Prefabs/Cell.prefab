@@ -145,6 +145,7 @@ MonoBehaviour:
   GibsPrefab: {fileID: 6274531187407110188, guid: e5d0a44b01fbae44ea61defc98fb879d,
     type: 3}
   IsPopped: 0
+  PointsGainedOnInfection: 100
 --- !u!95 &814676776193832034
 Animator:
   serializedVersion: 3

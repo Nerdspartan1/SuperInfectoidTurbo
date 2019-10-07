@@ -21,7 +21,6 @@ public class EnemiesManager : MonoBehaviour
     public GameObject SuperLymphocyteBPrefab;
 	public GameObject CellPrefab;
 
-	public Score score;
 
 	public void Start()
 	{
@@ -61,7 +60,6 @@ public class EnemiesManager : MonoBehaviour
 		}
 		_timeBeforeNextWave -= Time.deltaTime;
 
-		score.UpdateScore(numberOfCellsDestroyed);
 	}
 
     private void Spawn(GameObject enemy)

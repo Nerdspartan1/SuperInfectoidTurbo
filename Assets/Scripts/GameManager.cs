@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     public GameObject Credit;
     public GameObject Controls;
 	public GameObject GameOverScreen;
+
+	public int score;
 	public Score Score;
 	public Score EndScore;
 	public Score HighScore;
@@ -44,6 +46,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+		score = 0;
         ChangePhase(GamePhase.FirstMenuPhase);
 		GameOverScreen.SetActive(false);
 	}
@@ -120,15 +123,21 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+	public void GainPoints(int points)
+	{
+		score += points;
+		Score.UpdateScore(score);
+	}
+
 	public void GameOver()
 	{
 		GetComponent<VirionManager>().ClearVirions();
 		Score.gameObject.SetActive(false);
-		EndScore.UpdateScore(EnemiesManager.numberOfCellsDestroyed);
+		EndScore.UpdateScore(score);
 		GameOverScreen.SetActive(true);
 		int high_score = PlayerPrefs.GetInt("high_score", 0);
-		if (EnemiesManager.numberOfCellsDestroyed > high_score)
-			high_score = EnemiesManager.numberOfCellsDestroyed;
+		if (score > high_score)
+			high_score = score;
 			PlayerPrefs.SetInt("high_score", high_score);
 		HighScore.UpdateScore(high_score);
 	}

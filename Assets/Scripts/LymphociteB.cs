@@ -22,6 +22,8 @@ public class LymphociteB : MonoBehaviour
 	private Animator _animator;
 	private SpriteRenderer _spriteRenderer;
 
+	public int PointsGainedOnKill;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -85,6 +87,8 @@ public class LymphociteB : MonoBehaviour
 		{
 			Instantiate(HealObjectPrefab, transform.position + Random.onUnitSphere * 3, Quaternion.identity, GameManager.instance.Game.transform);
 		}
+
+		GameManager.instance.GainPoints(PointsGainedOnKill);
 
 		StartCoroutine(Disappear());
     }
