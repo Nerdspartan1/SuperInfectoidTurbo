@@ -1,0 +1,2023 @@
+fileFormatVersion: 2
+guid: 91db65dbff951474e9ae7188cc67c6f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3881379043966240070
+    second: Player Idle Face_0
+  - first:
+      213: -7179593681278738971
+    second: Player Idle Face_1
+  - first:
+      213: -7878603765507039683
+    second: Player Idle Face_2
+  - first:
+      213: 5845765386479134821
+    second: Player Idle Face_3
+  - first:
+      213: -8497103511705349137
+    second: Player Idle Face_4
+  - first:
+      213: 1728109187185953842
+    second: Player Idle Face_5
+  - first:
+      213: 4655843584254413164
+    second: Player Idle Face_6
+  - first:
+      213: 2817696158769137877
+    second: Player Idle Face_7
+  - first:
+      213: 6875940477928027515
+    second: Player Idle Face_8
+  - first:
+      213: -3626409054141049464
+    second: Player Idle Face_9
+  - first:
+      213: -8702682912335602887
+    second: Player Idle Face_10
+  - first:
+      213: -6895659895990258282
+    second: Player Idle Face_11
+  - first:
+      213: 7946418999285486425
+    second: Player Idle Face_12
+  - first:
+      213: -1797876762417099881
+    second: Player Idle Face_13
+  - first:
+      213: 5226242928291394692
+    second: Player Idle Face_14
+  - first:
+      213: -383556974658843399
+    second: Player Idle Face_15
+  - first:
+      213: 854767973430287346
+    second: Player Idle Face_16
+  - first:
+      213: -1413802660761353079
+    second: Player Idle Face_17
+  - first:
+      213: 516900088190699029
+    second: Player Idle Face_18
+  - first:
+      213: 2186704203884763757
+    second: Player Idle Face_19
+  - first:
+      213: 5171708727801402000
+    second: Player Idle Face_20
+  - first:
+      213: -4338616273584173622
+    second: Player Idle Face_21
+  - first:
+      213: 9164047261764666308
+    second: Player Idle Face_22
+  - first:
+      213: -8266434142584993548
+    second: Player Idle Face_23
+  - first:
+      213: 7626530146909711024
+    second: Player Idle Face_24
+  - first:
+      213: -5466411171493537964
+    second: Player Idle Face_25
+  - first:
+      213: -4681214952560599004
+    second: Player Idle Face_26
+  - first:
+      213: 2258186240558871780
+    second: Player Idle Face_27
+  - first:
+      213: -9187067655382935839
+    second: Player Idle Face_28
+  - first:
+      213: 5021584621508075644
+    second: Player Idle Face_29
+  - first:
+      213: 1515473398742357869
+    second: Player Idle Face_30
+  - first:
+      213: 2907824732401194921
+    second: Player Idle Face_31
+  - first:
+      213: -1116736844242736806
+    second: Player Idle Face_32
+  - first:
+      213: -634441335676454515
+    second: Player Idle Face_33
+  - first:
+      213: 5905063689791430090
+    second: Player Idle Face_34
+  - first:
+      213: 5038174441188533549
+    second: Player Idle Face_35
+  - first:
+      213: -9004213965463625226
+    second: Player Idle Face_36
+  - first:
+      213: 8165920325715167327
+    second: Player Idle Face_37
+  - first:
+      213: 412680473877266602
+    second: Player Idle Face_38
+  - first:
+      213: 1402233737942270266
+    second: Player Idle Face_39
+  - first:
+      213: 6862472189989737726
+    second: Player Idle Face_40
+  - first:
+      213: -8301738007522659009
+    second: Player Idle Face_41
+  - first:
+      213: 7556062971084160567
+    second: Player Idle Face_42
+  - first:
+      213: -7680311995384758227
+    second: Player Idle Face_43
+  - first:
+      213: -8345562187754518605
+    second: Player Idle Face_44
+  - first:
+      213: 1119287620265705284
+    second: Player Idle Face_45
+  - first:
+      213: 4874699674637255034
+    second: Player Idle Face_46
+  - first:
+      213: -6375137331770070069
+    second: Player Idle Face_47
+  - first:
+      213: 1531128467852510250
+    second: Player Idle Face_48
+  - first:
+      213: 8121379728166543462
+    second: Player Idle Face_49
+  - first:
+      213: 1960820311624015632
+    second: Player Idle Face_50
+  - first:
+      213: -2513929894349665667
+    second: Player Idle Face_51
+  - first:
+      213: 7310528456005551234
+    second: Player Idle Face_52
+  - first:
+      213: 753528081606926802
+    second: Player Idle Face_53
+  - first:
+      213: 4008372826882818970
+    second: Player Idle Face_54
+  - first:
+      213: -7521329480610472044
+    second: Player Idle Face_55
+  - first:
+      213: -3364968700086980085
+    second: Player Idle Face_56
+  - first:
+      213: 3396159836756761713
+    second: Player Idle Face_57
+  - first:
+      213: 747153277553570042
+    second: Player Idle Face_58
+  - first:
+      213: -6143697024030237270
+    second: Player Idle Face_59
+  - first:
+      213: -4773741934022758711
+    second: Player Idle Face_60
+  - first:
+      213: 399748008613546866
+    second: Player Idle Face_61
+  - first:
+      213: 8052624614981909504
+    second: Player Idle Face_62
+  - first:
+      213: -2797822754898486425
+    second: Player Idle Face_63
+  - first:
+      213: 266535869689394169
+    second: Player Idle Face_64
+  - first:
+      213: -2108645463670800391
+    second: Player Idle Face_65
+  - first:
+      213: -2869323756177426585
+    second: Player Idle Face_66
+  - first:
+      213: -1442183382341261381
+    second: Player Idle Face_67
+  - first:
+      213: 2371230584591284022
+    second: Player Idle Face_68
+  - first:
+      213: -5162780197880210993
+    second: Player Idle Face_69
+  - first:
+      213: -2132982358475725867
+    second: Player Idle Face_70
+  - first:
+      213: 7088266349540154147
+    second: Player Idle Face_71
+  - first:
+      213: -9186808683696424246
+    second: Player Idle Face_72
+  - first:
+      213: -230519168160685274
+    second: Player Idle Face_73
+  - first:
+      213: 2251267134246202013
+    second: Player Idle Face_74
+  - first:
+      213: -9174997292605917648
+    second: Player Idle Face_75
+  - first:
+      213: -4572470072590050856
+    second: Player Idle Face_76
+  - first:
+      213: 3230728119661865147
+    second: Player Idle Face_77
+  - first:
+      213: -652929476045342179
+    second: Player Idle Face_78
+  - first:
+      213: 7268991013255627996
+    second: Player Idle Face_79
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player Idle Face_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1797
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a43d69be0a899498baea881d8e21c0
+      internalID: 3881379043966240070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cc3b8a680ed9346a6a8de1f40f2337
+      internalID: -7179593681278738971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0b06a9dc956294fb798357103b3087
+      internalID: -7878603765507039683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e742fcebf4a2d6a4f8419e2aff3477a2
+      internalID: 5845765386479134821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_4
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0955107d4e8b0fb438f21c3fc71bb8fd
+      internalID: -8497103511705349137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_5
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1797
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6b384eecc34fa4b9ee6437d7f929fd
+      internalID: 1728109187185953842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_6
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385ecca9472632c48b091da61a2fe4b3
+      internalID: 4655843584254413164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_7
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207c6d90abbf4434bba0869b205fac5c
+      internalID: 2817696158769137877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_8
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e13bed15b9d4ce43b37c17705397439
+      internalID: 6875940477928027515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_9
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 1797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287edda3c0c5bb8438bc87449136b977
+      internalID: -3626409054141049464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1546
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6207327df2c024244940bdf828bfe847
+      internalID: -8702682912335602887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098a362862657e440a77ada09be040a2
+      internalID: -6895659895990258282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_12
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7663927f3277bfd449a05d7afc5d7833
+      internalID: 7946418999285486425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a4e92c10f8ff64ea91f4a2e08159bc
+      internalID: -1797876762417099881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_14
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f26566eefbc3d44901162ed261af03
+      internalID: 5226242928291394692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_15
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1546
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd310c7d8875f7f4b8614c0dbc953918
+      internalID: -383556974658843399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_16
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4028adce97102f147919d1167d99d2e8
+      internalID: 854767973430287346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_17
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1035c43ed5a7a4d48be522c609328a12
+      internalID: -1413802660761353079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_18
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0979b95925caf3e468f5b2cf998cf375
+      internalID: 516900088190699029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_19
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 1546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2111361d362354b943bfe227d274f0
+      internalID: 2186704203884763757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1296
+        width: 192
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456a22532ba41a34394037a9a327a153
+      internalID: 5171708727801402000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_21
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1296
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd4c7e6df0b2dc4da30f3f7b5377fbd
+      internalID: -4338616273584173622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_22
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1296
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff2d7a70e7b3d248a8c2c2c38919701
+      internalID: 9164047261764666308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_23
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1296
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0386ed7980bc0442be7e876884c8e02
+      internalID: -8266434142584993548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_24
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1296
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee5a2f20ab42cb42a5d1abec5c0eb5d
+      internalID: 7626530146909711024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_25
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1296
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9481db1fb5e01cd498de1f964329829b
+      internalID: -5466411171493537964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_26
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1296
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11e4fac9506c9c4fb753a2da8f30d6c
+      internalID: -4681214952560599004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_27
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1296
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a92b7989ea06347864cce32d7bba5f
+      internalID: 2258186240558871780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_28
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1296
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bc2b34b79f7b34b95d2b613fb520ba
+      internalID: -9187067655382935839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_29
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 1296
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4203bfe05edf9964088cd33e7361982f
+      internalID: 5021584621508075644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_30
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1047
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2735abfbca8eae9448b794bd4dbe9253
+      internalID: 1515473398742357869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_31
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1047
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6d795cde4fb1468075671c21e0881
+      internalID: 2907824732401194921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1047
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d25c4f8f1d663488016411e8cece1e
+      internalID: -1116736844242736806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_33
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1047
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05866030b65a9ce46975bdb8ee3d09b4
+      internalID: -634441335676454515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_34
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1047
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52901b7b232d7b74cba153c653df638a
+      internalID: 5905063689791430090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_35
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1047
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdd9506e49e96d4dab8ab159ef892f9
+      internalID: 5038174441188533549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_36
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1047
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720272821301b1c4b81197d68e26e7f5
+      internalID: -9004213965463625226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_37
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 1047
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a03ad2bdb66540aa0d4151f0b73ee
+      internalID: 8165920325715167327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_38
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1047
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cccd2521db22764fb10b7cca6bcacf2
+      internalID: 412680473877266602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_39
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 1047
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b746c7cfdff287e4ba6ecdba4b2db562
+      internalID: 1402233737942270266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_40
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 797
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a2d1bee4a240479697579a3a3155c
+      internalID: 6862472189989737726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_41
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644cfd77f60a4d243adaaa60886cd115
+      internalID: -8301738007522659009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_42
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4b0859e009af04388a70fef2dc4678
+      internalID: 7556062971084160567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_43
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90807193c8746f645aabee14b5a0353c
+      internalID: -7680311995384758227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_44
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc5086dd8777344890e9d6c6f361200
+      internalID: -8345562187754518605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_45
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 797
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e6f1b67686faf408a94cf837650e3d
+      internalID: 1119287620265705284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_46
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d309e235aca1748b56a571ffb2f429
+      internalID: 4874699674637255034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_47
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2aad213e5fa4645bf3bc37d0055e3a
+      internalID: -6375137331770070069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_48
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51cbb9574e31c94cbfc1928bac83e1f
+      internalID: 1531128467852510250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_49
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 797
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a795d770bd258642a23489f80b68c3d
+      internalID: 8121379728166543462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 546
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62bfdc6d5666794889d8f68b1764d05
+      internalID: 1960820311624015632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_51
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7046340aa5c3abd41afe06d3b9f7caa9
+      internalID: -2513929894349665667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_52
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160817d5f49c0d946a08f427e84107da
+      internalID: 7310528456005551234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_53
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f9fec1f9b01ce49935dd6b3752d078
+      internalID: 753528081606926802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_54
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40b35f84a74a764ab056595c7fddd37
+      internalID: 4008372826882818970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_55
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 546
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9853ecab3f9c04297022a0750cf31c
+      internalID: -7521329480610472044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_56
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd8af1c65035b6428699ff2757fc49b
+      internalID: -3364968700086980085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_57
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e419d2485e3c4499fd627ba0da5e7b
+      internalID: 3396159836756761713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_58
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec3e2172ffcd124199bb10697d260c1
+      internalID: 747153277553570042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_59
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 546
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1601779c82a8d6438db1dc8286f7d67
+      internalID: -6143697024030237270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_60
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 296
+        width: 192
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc20773517117d94582448e6a7b8cd3c
+      internalID: -4773741934022758711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_61
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 296
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2477ab72a76d1334fb0d48f942b2d8f1
+      internalID: 399748008613546866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_62
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 296
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e38a06e23609d4c93a5d0ed8b2438e
+      internalID: 8052624614981909504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_63
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 296
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6843a04cb80356344b8f955d9c0b7205
+      internalID: -2797822754898486425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_64
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 296
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52757c5e7193578408b3040df1aa6fd1
+      internalID: 266535869689394169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_65
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 296
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a5781826a50e245b666534eb87ace3
+      internalID: -2108645463670800391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_66
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 296
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c16f2560c7cd0b42b31fe7f4ec56aeb
+      internalID: -2869323756177426585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_67
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 296
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71b2e7e7ad836a488dadf277e55a4f4
+      internalID: -1442183382341261381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_68
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 296
+        width: 193
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf9e22de75f71341a66003f6a7d6f87
+      internalID: 2371230584591284022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_69
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 296
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a414991f83f744ba3f65da23473568
+      internalID: -5162780197880210993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_70
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 47
+        width: 192
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f390d982a177964a8595f09cde55e58
+      internalID: -2132982358475725867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_71
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 47
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d646b3cfe5b6be45ba833cb33bd0a81
+      internalID: 7088266349540154147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_72
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 47
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62960e461458e74592dcdecf4a2fc5e
+      internalID: -9186808683696424246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_73
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 47
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7006f1afc1a1f63419ade502517b4855
+      internalID: -230519168160685274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_74
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 47
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de2655ea64eecc4692025545f6a334a
+      internalID: 2251267134246202013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_75
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 47
+        width: 192
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ffe94311cae8d41b92b161ab6a2db4
+      internalID: -9174997292605917648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_76
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 47
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2e540828275df45baf5cf454b1be3f
+      internalID: -4572470072590050856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_77
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 47
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c05f9ed2e8ace4e89b860a6f48bec0
+      internalID: 3230728119661865147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_78
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 47
+        width: 193
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5108dcd5f0626554a99cdd84c80801a4
+      internalID: -652929476045342179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player Idle Face_79
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 47
+        width: 193
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504e76de963cf894bbe44493bfca7cfa
+      internalID: 7268991013255627996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
