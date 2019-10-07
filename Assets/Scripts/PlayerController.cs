@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
 
 			int animDir;
 			if (input.sqrMagnitude > 0.1f)
-				animDir = (int)(Mathf.Atan2(input.y, input.x) * 4 / Mathf.PI);
+				animDir = Mathf.FloorToInt((Mathf.Atan2(input.y, input.x) * 4.0f / Mathf.PI));
 			else
 				animDir = -4;
 
