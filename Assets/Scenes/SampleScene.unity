@@ -3055,11 +3055,6 @@ PrefabInstance:
       propertyPath: HealthIcon
       value: 
       objectReference: {fileID: 61806606}
-    - target: {fileID: 6193667209030059076, guid: 34025ecc6deb15f42ba9f09c8bbe20f9,
-        type: 3}
-      propertyPath: infectionTime
-      value: 2.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34025ecc6deb15f42ba9f09c8bbe20f9, type: 3}
 --- !u!224 &1621402171 stripped
