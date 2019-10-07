@@ -47,7 +47,7 @@ public class EnemiesManager : MonoBehaviour
 				if (numberOfKillsBeforeSuperLymphocyte <= 0)
 				{
 					Spawn(SuperLymphocyteBPrefab);
-					numberOfKillsBeforeSuperLymphocyte = numberOfKillsToSpawnLymphocyte--;
+					numberOfKillsBeforeSuperLymphocyte = Mathf.Max(numberOfKillsToSpawnLymphocyte--,5);
 				}
 				else
 				{

@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 	public float maxAcceleration;
 	public float maxVelocity;
 	public float cellInfectionRadius;
+	public float infectionTime = 3.0f;
 
     public AudioClip hitSound;
     public AudioClip shootSound;
@@ -82,7 +83,7 @@ public class PlayerController : MonoBehaviour
 		_collider.enabled = false;
 
 		Vector3 startPos = transform.position;
-		float infectionRate = 1 / 3.0f;
+		float infectionRate = 1 / infectionTime;
 
 		float infectionPercentage = 0;
 		while (infectionPercentage < 1.0)

@@ -102,10 +102,12 @@ MonoBehaviour:
   maxAcceleration: 2
   maxVelocity: 12
   cellInfectionRadius: 1
-  hitSound: {fileID: 0}
-  shootSound: {fileID: 0}
-  dieSound: {fileID: 0}
+  infectionTime: 2.5
+  hitSound: {fileID: 8300000, guid: 17e3a76ae4a18954cb39d5ae1b25b7f1, type: 3}
+  shootSound: {fileID: 8300000, guid: 4d298d3fa38481040910119295e69cec, type: 3}
+  dieSound: {fileID: 8300000, guid: 308f811285485374baad5950413a150b, type: 3}
   stunTime: 0.5
+  HealthIcon: {fileID: 0}
 --- !u!50 &6193667209030059079
 Rigidbody2D:
   serializedVersion: 4
@@ -180,6 +182,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_MethodName: GameOver
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6193667209030059076}
+        m_MethodName: Die
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
