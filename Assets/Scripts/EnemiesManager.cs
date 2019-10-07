@@ -5,19 +5,17 @@ using UnityEngine.UI;
 
 public class EnemiesManager : MonoBehaviour
 {
+	public static int numberOfCells;
+	public static int numberOfCellsDestroyed;
+	public static int numberOfEnemies;
+	public static int numberOfKillsBeforeSuperLymphocyte;
+	public static int numberOfKillsToSpawnLymphocyte;
 
 	public float minPlayerSpawnDistance;
-	static public int numberOfCells = 0;
-	static public int numberOfCellsDestroyed = 0;
-	public int maxNumberOfCells = 12;
-
-	static public int numberOfEnemies = 0;
-    public static int numberOfKillsBeforeSuperLymphocyte = 10;
-	public static int numberOfKillsToSpawnLymphocyte = 10;
-	public int maxNumberOfEnemies = 20;
-
-	public float EnemyWavePeriod = 2.0f;
-	private float _timeBeforeNextWave = 0.0f;
+	public int maxNumberOfCells;
+	public int maxNumberOfEnemies;
+	public float EnemyWavePeriod;
+	private float _timeBeforeNextWave;
 
     public GameObject LymphocyteBPrefab;
     public GameObject SuperLymphocyteBPrefab;
@@ -31,6 +29,8 @@ public class EnemiesManager : MonoBehaviour
 		numberOfCells = 0;
 		numberOfCellsDestroyed = 0;
 		numberOfEnemies = 0;
+		numberOfKillsBeforeSuperLymphocyte = 10;
+		numberOfKillsToSpawnLymphocyte = 10;
 	}
 
 	void Update()
