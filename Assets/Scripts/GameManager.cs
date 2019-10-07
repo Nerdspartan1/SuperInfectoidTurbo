@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class GameManager : MonoBehaviour
 {
@@ -60,9 +61,7 @@ public class GameManager : MonoBehaviour
                 Credit.SetActive(false);
                 Controls.SetActive(false);
                 Game.SetActive(true);
-                Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
-                Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
-                Destroy(Controls.GetComponent<VideoPlayer3>().videoPlayer);
+				camera.GetComponent<UnityEngine.Video.VideoPlayer>().clip = null;
                 gamePhase = GamePhase.GamingPhase;
 				break;
 			case GamePhase.FirstMenuPhase:
@@ -70,8 +69,6 @@ public class GameManager : MonoBehaviour
                 Credit.SetActive(false);
                 Controls.SetActive(false);
                 Menu.SetActive(true);
-                Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
-                Destroy(Controls.GetComponent<VideoPlayer3>().videoPlayer);
                 Menu.GetComponent<VideoPlayer>().PlayVideo();
                 gamePhase = GamePhase.FirstMenuPhase;
 				break;
@@ -80,9 +77,7 @@ public class GameManager : MonoBehaviour
                 Menu.SetActive(false);
                 Controls.SetActive(false);
                 Credit.SetActive(true);
-                Credit.GetComponent<VideoPlayer2>().PlayVideo();
-                Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
-                Destroy(Controls.GetComponent<VideoPlayer3>().videoPlayer);
+                Credit.GetComponent<VideoPlayer>().PlayVideo();
                 gamePhase = GamePhase.CreditPhase;
                 break;
             case GamePhase.ControlsPhase:
@@ -90,9 +85,7 @@ public class GameManager : MonoBehaviour
                 Menu.SetActive(false);
                 Credit.SetActive(false);
                 Controls.SetActive(true);
-                Destroy(Credit.GetComponent<VideoPlayer2>().videoPlayer);
-                Destroy(Menu.GetComponent<VideoPlayer>().videoPlayer);
-                Controls.GetComponent<VideoPlayer3>().PlayVideo();
+                Controls.GetComponent<VideoPlayer>().PlayVideo();
                 gamePhase = GamePhase.ControlsPhase;
                 break;
         }
