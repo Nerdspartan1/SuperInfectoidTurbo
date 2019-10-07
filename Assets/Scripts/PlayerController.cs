@@ -69,6 +69,7 @@ public class PlayerController : MonoBehaviour
 					if (cell)
 					{
 						StartCoroutine(AttackCellCoroutine(cell));
+						break;
 					}
 				}
 			}
