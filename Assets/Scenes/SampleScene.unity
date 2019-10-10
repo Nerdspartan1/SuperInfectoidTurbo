@@ -2207,7 +2207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 519420033}
-  videoClip: {fileID: 32900000, guid: f3053e9689f728947963191cc6ad59c5, type: 3}
+  videoClip: {fileID: 32900000, guid: 7c07c8e7880027646b2c5453aa549bf5, type: 3}
   loop: 1
 --- !u!1 &936168620
 GameObject:

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3823724847775776904}
   - component: {fileID: 2945725157552169843}
   - component: {fileID: 6971269199985848380}
-  - component: {fileID: 4753148274214113900}
+  - component: {fileID: 1438037211}
   m_Layer: 10
   m_Name: HealObject
   m_TagString: Untagged
@@ -73,13 +73,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6883386962697498214, guid: 5db77830d7aaeba418665df2b90f3117,
+  m_Sprite: {fileID: 7426568656654075867, guid: 5cf56af9e1d5b3e46a4d20b06b256555,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.93, y: 1.93}
+  m_Size: {x: 0.94, y: 1.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -137,7 +137,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1
---- !u!95 &4753148274214113900
+--- !u!95 &1438037211
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ Animator:
   m_GameObject: {fileID: 7183919439157700643}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 08b403066dead5d4cb18dad464878c99, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -79,13 +79,14 @@ public class LymphociteB : MonoBehaviour
 		_animator.SetBool("isAttacking", false);
 		_animator.SetBool("dead", true);
 		_rigidBody.freezeRotation = false;
+		gameObject.layer = LayerMask.NameToLayer("PowerUp");
 
         EnemiesManager.numberOfEnemies--;
         EnemiesManager.numberOfKillsBeforeSuperLymphocyte--;
 		int chance = Random.Range(0, 3);
 		if (chance == 0)
 		{
-			Instantiate(HealObjectPrefab, transform.position + Random.onUnitSphere * 3, Quaternion.identity, GameManager.instance.Game.transform);
+			Instantiate(HealObjectPrefab, transform.position + Random.onUnitSphere * 3, new Quaternion(0,0,Random.Range(0.0f,1.0f),1), GameManager.instance.Game.transform);
 		}
 
 		GameManager.instance.GainPoints(PointsGainedOnKill);

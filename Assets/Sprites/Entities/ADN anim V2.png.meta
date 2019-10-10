@@ -1,0 +1,799 @@
+fileFormatVersion: 2
+guid: 5cf56af9e1d5b3e46a4d20b06b256555
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7426568656654075867
+    second: ADN anim V2_0
+  - first:
+      213: -5260379665331694990
+    second: ADN anim V2_1
+  - first:
+      213: 4875033839735567408
+    second: ADN anim V2_2
+  - first:
+      213: 2465852302270538067
+    second: ADN anim V2_3
+  - first:
+      213: 8689182498926282579
+    second: ADN anim V2_4
+  - first:
+      213: 1907607276308989722
+    second: ADN anim V2_5
+  - first:
+      213: -8530532418673594077
+    second: ADN anim V2_6
+  - first:
+      213: 2507830024915065346
+    second: ADN anim V2_7
+  - first:
+      213: 8765234004640691113
+    second: ADN anim V2_8
+  - first:
+      213: 138800798028227958
+    second: ADN anim V2_9
+  - first:
+      213: 1047036160419229756
+    second: ADN anim V2_10
+  - first:
+      213: 6682401243684419462
+    second: ADN anim V2_11
+  - first:
+      213: 761302418129727653
+    second: ADN anim V2_12
+  - first:
+      213: 4635301584262530153
+    second: ADN anim V2_13
+  - first:
+      213: 4247430878502330509
+    second: ADN anim V2_14
+  - first:
+      213: 2246522200882095899
+    second: ADN anim V2_15
+  - first:
+      213: 3289334453999319507
+    second: ADN anim V2_16
+  - first:
+      213: 113400232374262535
+    second: ADN anim V2_17
+  - first:
+      213: -8029611284864799649
+    second: ADN anim V2_18
+  - first:
+      213: -4611480397740355922
+    second: ADN anim V2_19
+  - first:
+      213: -4685781842501717140
+    second: ADN anim V2_20
+  - first:
+      213: -6635928941724746519
+    second: ADN anim V2_21
+  - first:
+      213: -7417803623582481782
+    second: ADN anim V2_22
+  - first:
+      213: 4148672262590920530
+    second: ADN anim V2_23
+  - first:
+      213: -1903696123921961202
+    second: ADN anim V2_24
+  - first:
+      213: 5134402834337907333
+    second: ADN anim V2_25
+  - first:
+      213: 4871853772097168717
+    second: ADN anim V2_26
+  - first:
+      213: 75669712561180671
+    second: ADN anim V2_27
+  - first:
+      213: 5795525603398128083
+    second: ADN anim V2_28
+  - first:
+      213: -9002054777161497576
+    second: ADN anim V2_29
+  - first:
+      213: -1664816800117061864
+    second: ADN anim V2_30
+  - first:
+      213: -7328966985778288159
+    second: ADN anim V2_31
+  - first:
+      213: -5985313854639015878
+    second: ADN anim V2_32
+  - first:
+      213: 9198193819105339541
+    second: ADN anim V2_33
+  - first:
+      213: -3097472717525567113
+    second: ADN anim V2_34
+  - first:
+      213: 2830615781132358844
+    second: ADN anim V2_35
+  - first:
+      213: 4990122607062314254
+    second: ADN anim V2_36
+  - first:
+      213: 7999214438502602149
+    second: ADN anim V2_37
+  - first:
+      213: -7036175180022826486
+    second: ADN anim V2_38
+  - first:
+      213: -7061824417399221691
+    second: ADN anim V2_39
+  - first:
+      213: 6440816661700745350
+    second: ADN anim V2_40
+  - first:
+      213: -1255111928214877078
+    second: ADN anim V2_41
+  - first:
+      213: -7064889177654988893
+    second: ADN anim V2_42
+  - first:
+      213: 8673090832212456824
+    second: ADN anim V2_43
+  - first:
+      213: 3329944902979402904
+    second: ADN anim V2_44
+  - first:
+      213: 7943954890795707025
+    second: ADN anim V2_45
+  - first:
+      213: -5295224727161627049
+    second: ADN anim V2_46
+  - first:
+      213: 7290809910072508949
+    second: ADN anim V2_47
+  - first:
+      213: 7777733874680529168
+    second: ADN anim V2_48
+  - first:
+      213: -3186190573134786596
+    second: ADN anim V2_49
+  - first:
+      213: 8868041775360794901
+    second: ADN anim V2_50
+  - first:
+      213: -3771664704309055278
+    second: ADN anim V2_51
+  - first:
+      213: -9141465396174473560
+    second: ADN anim V2_52
+  - first:
+      213: 5076908349932370297
+    second: ADN anim V2_53
+  - first:
+      213: -8158287829226377071
+    second: ADN anim V2_54
+  - first:
+      213: -6877706979044520698
+    second: ADN anim V2_55
+  - first:
+      213: -4318863669290827331
+    second: ADN anim V2_56
+  - first:
+      213: 6207011696655284524
+    second: ADN anim V2_57
+  - first:
+      213: 7330163922627366850
+    second: ADN anim V2_58
+  - first:
+      213: -8853889043130127298
+    second: ADN anim V2_59
+  - first:
+      213: -1391882586932200668
+    second: ADN anim V2_60
+  - first:
+      213: 4023244319050474964
+    second: ADN anim V2_61
+  - first:
+      213: 30131955668102914
+    second: ADN anim V2_62
+  - first:
+      213: -8974445813569197029
+    second: ADN anim V2_63
+  - first:
+      213: -550045479051290053
+    second: ADN anim V2_64
+  - first:
+      213: 7031002078086464796
+    second: ADN anim V2_65
+  - first:
+      213: 5194799686682591325
+    second: ADN anim V2_66
+  - first:
+      213: 6936274035205287139
+    second: ADN anim V2_67
+  - first:
+      213: 1312017802702707700
+    second: ADN anim V2_68
+  - first:
+      213: 4232934792292635867
+    second: ADN anim V2_69
+  - first:
+      213: -8894475994142088123
+    second: ADN anim V2_70
+  - first:
+      213: -8091276331680552813
+    second: ADN anim V2_71
+  - first:
+      213: 962538107597380605
+    second: ADN anim V2_72
+  - first:
+      213: -4256400091819385704
+    second: ADN anim V2_73
+  - first:
+      213: -7455320280071804308
+    second: ADN anim V2_74
+  - first:
+      213: 822920826069804841
+    second: ADN anim V2_75
+  - first:
+      213: 2348352505267526725
+    second: ADN anim V2_76
+  - first:
+      213: 4698101929536422126
+    second: ADN anim V2_77
+  - first:
+      213: -2699413382477444867
+    second: ADN anim V2_78
+  - first:
+      213: -1838678159241333
+    second: ADN anim V2_79
+  - first:
+      213: -8241109179860590931
+    second: ADN anim V2_80
+  - first:
+      213: 4887117060679487468
+    second: ADN anim V2_81
+  - first:
+      213: 4824932858672214749
+    second: ADN anim V2_82
+  - first:
+      213: -6130791161482072315
+    second: ADN anim V2_83
+  - first:
+      213: 4295156748822312305
+    second: ADN anim V2_84
+  - first:
+      213: 8592518665653217861
+    second: ADN anim V2_85
+  - first:
+      213: -1767560884808297289
+    second: ADN anim V2_86
+  - first:
+      213: 8300490944706863475
+    second: ADN anim V2_87
+  - first:
+      213: -2666649956307486347
+    second: ADN anim V2_88
+  - first:
+      213: -7272131188660908691
+    second: ADN anim V2_89
+  - first:
+      213: -590169529068995875
+    second: ADN anim V2_90
+  - first:
+      213: -7991239030495003911
+    second: ADN anim V2_91
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ADN anim V2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b3161420854154ea6c5949f65c56df
+      internalID: 7426568656654075867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce92fd98f3442cc458abd512beb57155
+      internalID: -5260379665331694990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b08430f23b833f4185dd0b138f818f8
+      internalID: 4875033839735567408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5631d880a0af04ebea7d8ec9457056
+      internalID: 2465852302270538067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b0a8c2929a6a347940f7d961821491
+      internalID: 8689182498926282579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3d3df457ecdce40972465de43cf700
+      internalID: 1907607276308989722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afb53f4c10a9974497dcb3936f782f3
+      internalID: -8530532418673594077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3248f81b2e6cf0543bd7ca2424d17b61
+      internalID: 2507830024915065346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d86e1f16c439246a3d6b40ce582f1c
+      internalID: 8765234004640691113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a8f86bc0dd1d847b2a151e2062bc24
+      internalID: 138800798028227958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074983c6f210eeb4c991a52a4ce2e5ef
+      internalID: 1047036160419229756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7121293cc6446904fb94403d01f444ea
+      internalID: 6682401243684419462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9be37635d41e646a4fc9e376ea3e84
+      internalID: 761302418129727653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c018f5d42aece044baaa60cca1ad190
+      internalID: 4635301584262530153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_14
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6aeff324695b641afd71f5c55eeb9d
+      internalID: 4247430878502330509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aab45d6ddb6b274d839d2d0efab9f11
+      internalID: 2246522200882095899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_16
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129e602e2f565c64bbc86a6803f70607
+      internalID: 3289334453999319507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_17
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b02e0685b8f1fe4abdbb7765ee0fc8e
+      internalID: 113400232374262535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_18
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759038fdb61affd4fb54c75adc326cfc
+      internalID: -8029611284864799649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ADN anim V2_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6bd8e86ada4c14d9b2eb5494662707
+      internalID: -4611480397740355922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

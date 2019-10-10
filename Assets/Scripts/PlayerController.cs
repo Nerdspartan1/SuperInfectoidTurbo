@@ -79,6 +79,8 @@ public class PlayerController : MonoBehaviour
 	public IEnumerator AttackCellCoroutine(Cell cell)
 	{
 		_isInfectingCell = true;
+		_animator.SetBool("infect", true);
+		_animator.SetInteger("direction", -5);
 		cell.StartInfecting();
 		_rigidbody.isKinematic = true;
 		_collider.enabled = false;
@@ -110,6 +112,7 @@ public class PlayerController : MonoBehaviour
 
 		FinishInfecting:
 			_isInfectingCell = false;
+			_animator.SetBool("infect", false);
 			_rigidbody.isKinematic = false;
 			_collider.enabled = true;
 	}
