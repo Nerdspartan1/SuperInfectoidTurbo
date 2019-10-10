@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using UnityEngine.EventSystems;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class GameManager : MonoBehaviour
     public GameObject Credit;
     public GameObject Controls;
 	public GameObject GameOverScreen;
+	public GameObject RestartButton;
 
 	public int score;
 	public Score Score;
@@ -38,6 +40,8 @@ public class GameManager : MonoBehaviour
     public float playAreaHeight = 46.0f;
 
     public float parallaxFactor = 500;
+
+	public EventSystem eventSystem;
 
     private void Awake()
     {
@@ -128,6 +132,7 @@ public class GameManager : MonoBehaviour
 		Score.gameObject.SetActive(false);
 		EndScore.UpdateScore(score);
 		GameOverScreen.SetActive(true);
+		eventSystem.SetSelectedGameObject(RestartButton);
 		int high_score = PlayerPrefs.GetInt("high_score", 0);
 		if (score > high_score)
 			high_score = score;
