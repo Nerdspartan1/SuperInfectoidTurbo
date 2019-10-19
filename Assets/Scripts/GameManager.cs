@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public GameObject Credit;
     public GameObject Controls;
 	public GameObject GameOverScreen;
+	public GameObject StartButton;
 	public GameObject RestartButton;
 
 	public int score;
@@ -74,6 +75,7 @@ public class GameManager : MonoBehaviour
                 Controls.SetActive(false);
                 Title.SetActive(true);
                 Menu.GetComponent<VideoPlayer>().PlayVideo();
+				eventSystem.SetSelectedGameObject(StartButton);
                 gamePhase = GamePhase.FirstMenuPhase;
 				break;
             case GamePhase.CreditPhase:
