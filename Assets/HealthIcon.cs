@@ -15,7 +15,6 @@ public class HealthIcon : MonoBehaviour
 
 	public void UpdateIcon(int health)
 	{
-		if (health == 0) _image = null;
-		else _image.sprite = healthSprites[5-health];
+		_image.sprite = healthSprites[5-health];
 	}
 }

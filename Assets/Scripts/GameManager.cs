@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject Menu;
     public GameObject Game;
+	public GameObject Title;
     public GameObject Credit;
     public GameObject Controls;
 	public GameObject GameOverScreen;
@@ -62,40 +63,52 @@ public class GameManager : MonoBehaviour
 		{
 			case GamePhase.GamingPhase:
 				Menu.SetActive(false);
-                Credit.SetActive(false);
-                Controls.SetActive(false);
                 Game.SetActive(true);
 				camera.GetComponent<UnityEngine.Video.VideoPlayer>().clip = null;
                 gamePhase = GamePhase.GamingPhase;
 				break;
 			case GamePhase.FirstMenuPhase:
+				Menu.SetActive(true);
 				Game.SetActive(false);
                 Credit.SetActive(false);
                 Controls.SetActive(false);
-                Menu.SetActive(true);
+                Title.SetActive(true);
                 Menu.GetComponent<VideoPlayer>().PlayVideo();
                 gamePhase = GamePhase.FirstMenuPhase;
 				break;
             case GamePhase.CreditPhase:
-                Game.SetActive(false);
-                Menu.SetActive(false);
-                Controls.SetActive(false);
-                Credit.SetActive(true);
-                Credit.GetComponent<VideoPlayer>().PlayVideo();
+				Menu.SetActive(true);
+				Game.SetActive(false);
+				Credit.SetActive(true);
+				Controls.SetActive(false);
+				Title.SetActive(false);
+				Credit.GetComponent<VideoPlayer>().PlayVideo();
                 gamePhase = GamePhase.CreditPhase;
                 break;
             case GamePhase.ControlsPhase:
-                Game.SetActive(false);
-                Menu.SetActive(false);
-                Credit.SetActive(false);
-                Controls.SetActive(true);
-                Controls.GetComponent<VideoPlayer>().PlayVideo();
+				Menu.SetActive(true);
+				Game.SetActive(false);
+				Credit.SetActive(false);
+				Controls.SetActive(true);
+				Title.SetActive(false);
+				Controls.GetComponent<VideoPlayer>().PlayVideo();
                 gamePhase = GamePhase.ControlsPhase;
                 break;
         }
     }
 
-    public void LaunchGame()
+	public void Update()
+	{
+		if(gamePhase == GamePhase.GamingPhase)
+		{
+			if (Input.GetKeyDown(KeyCode.Escape))
+			{
+				Restart();
+			}
+		}
+	}
+
+	public void LaunchGame()
     {
         ChangePhase(GamePhase.GamingPhase);
     }

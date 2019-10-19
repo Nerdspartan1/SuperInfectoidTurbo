@@ -143,7 +143,8 @@ public class PlayerController : MonoBehaviour
 
 	public void Die()
 	{
-        if (!_isDead)
+		HealthIcon.UpdateIcon(0);
+		if (!_isDead)
         {
             PlayDieSound();
         }
